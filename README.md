@@ -36,9 +36,9 @@
 	- Integral-A
 	- Zubr-19
 	- FN Five-seven
-
-
-
+	
+--Armor and helmets--
+	
 (Light Helmet):
 - PA-7 Gas Mask
 - PG-4 Facehugger Gas Mask
@@ -47,12 +47,15 @@
 - Ballistic Glasses
 - Ballistic Helmet
 - Tactical Helmet
+
 (Medium Helmet):
 - Exohelmet
 - Sphere M20 Helmet
 - Mask-1 Helmet
+
 (Heavy Helmet):
 - Altyn Helmet
+
 (Light weight Armor):
 - Mercenary Suit
 - Marauder Suit
@@ -61,11 +64,14 @@
 - Sunrise Suit
 - Berill-5M Armored Suit
 - PSZ-9I Falcon
+
 (Medium Armor)
 - PSZ-12V Bulat
 - PSZ-20W Convoy
 - Corundum Suit
+
 (Heavy Armor):
 - Heavy armor suit
+
 (Scientific Suit):
 -SEVA Suit
