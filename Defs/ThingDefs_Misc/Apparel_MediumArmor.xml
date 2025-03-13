@@ -215,9 +215,9 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Bulat/Bulat</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Bulat/BulatIco</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
     <costList Inherit="False">
@@ -253,7 +253,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bulat/Bulat</wornGraphicPath>
-	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Shell</li>
       </layers>
@@ -290,6 +289,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+		</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
