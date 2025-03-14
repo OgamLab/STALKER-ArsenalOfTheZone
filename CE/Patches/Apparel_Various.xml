@@ -98,6 +98,13 @@
 		</value>
 	</Operation>
 
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_SEVA"]/apparel/layers</xpath>
+		<value>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+
    <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorExohelmet"]/statBases</xpath>
 		<value>

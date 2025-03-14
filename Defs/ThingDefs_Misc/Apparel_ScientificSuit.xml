@@ -68,8 +68,7 @@
         </defaultData>
       </drawData>
 	  <immuneToToxGasExposure>true</immuneToToxGasExposure>
-      <layers>
-	    <li>StrappedHead</li> 
+      <layers> 
 	    <li>Overhead</li>
 	    <li>OnSkin</li>
         <li>Middle</li>
