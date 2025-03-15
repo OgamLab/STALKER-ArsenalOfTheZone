@@ -9,7 +9,7 @@
     <description>Mercenary-designed suit, based on special forces gear. High molecular polyethylene plates and aramid padding not only sound futuristic, but provide excellent protection from high-corrosion Zone weapons.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -20,10 +20,15 @@
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
 	 <costList Inherit="False">
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>90</Cloth>
+	  <Chemfuel>5</Chemfuel>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Merc/Merc</texPath>
@@ -105,7 +110,7 @@
     <description>A combination of a stylish jacket and a decent bulletproof vest. This outfit may not be the top choice for exploring anomalies, but when it comes to shaking down a hapless stalker, you can’t get any better than this.</description>
     <possessionCount>1</possessionCount>
    <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -116,10 +121,15 @@
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
 	 <costList Inherit="False">
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>90</Cloth>
+      <Steel>70</Steel>
+	  <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder</texPath>
@@ -199,7 +209,7 @@
     <description>An upgraded version of the PSZ-5 specifically adapted for mutant hunting, produced by Duty’s skilled technicians.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 		<li>TableMachining</li>
 	  </recipeUsers>
@@ -210,10 +220,15 @@
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
 	 <costList Inherit="False">
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>90</Cloth>
+      <Steel>70</Steel>
+	  <Chemfuel>8</Chemfuel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/PSZ-5/PSZIco</texPath>
@@ -301,7 +316,7 @@
     <description>The former owner of this suit had an excellent understanding of weight distribution and echeloning of equipment. Redesigned pockets, a corset that relieves the back, additional pouches and a travel backpack allow you to carry more weight, which is very handy during long raids into the Zone.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 		<li>TableMachining</li>
 	  </recipeUsers>
@@ -312,10 +327,15 @@
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
 	 <costList Inherit="False">
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>90</Cloth>
+      <Steel>70</Steel>
+	   <Chemfuel>11</Chemfuel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist</texPath>
@@ -394,7 +414,7 @@
     <description>A masterpiece of local craftsmenship, this suit combines two layers of rubberized fabric with a polymer lining and a bulletproof vest effective against pistol bullets. The Sunrise’s reasonable price and upgrade potential have solidified its status as a top-selling item.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 		<li>TableMachining</li>
 	  </recipeUsers>
@@ -405,10 +425,15 @@
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
 	 <costList Inherit="False">
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>90</Cloth>
+	  <Chemfuel>9</Chemfuel>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise</texPath>
@@ -487,7 +512,7 @@
     <description>Designed for army special forces, this specialized armored suit is an extensive upgrade of the PSZ-5 series. While not the most practical option for extended ventures into the Zone, its users seldom find themselves in such scenarios.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -504,10 +529,15 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList Inherit="False">
-      <Plasteel>150</Plasteel>
-      <ComponentSpacer>6</ComponentSpacer>
-	  <Cloth>100</Cloth>
+	 <Chemfuel>8</Chemfuel>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
@@ -590,7 +620,7 @@
     <description>Guerilla warfare in the Zone is a entire art on its own, and this suit is the creation of those who have mastered it. A Sparker version of one of the most efficient armored suits across this side of the Perimeter.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -607,10 +637,15 @@
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
+	 <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList Inherit="False">
-      <Plasteel>150</Plasteel>
-      <ComponentSpacer>6</ComponentSpacer>
-	  <Cloth>100</Cloth>
+	 <Chemfuel>11</Chemfuel>
+      <Steel>70</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>

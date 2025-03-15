@@ -16,15 +16,21 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Heavyhelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		 <costStuffCount>45</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
+		    <Plasteel>70</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+			<Chemfuel>5</Chemfuel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
@@ -86,7 +92,7 @@
 			</li>
 		</modExtensions>
     <researchPrerequisites>
-       <li>Mediumhelmet</li>
+       <li>Heavyhelmet</li>
 	  <li>FlakArmor</li>
     </researchPrerequisites>
 	</ThingDef>

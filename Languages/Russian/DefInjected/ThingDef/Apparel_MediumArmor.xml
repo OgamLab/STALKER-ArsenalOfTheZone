@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Stalker_Apparel_Corundum.label>Корундовый костюм</Stalker_Apparel_Corundum.label>
+  <Stalker_Apparel_Corundum.description>Тяжёлый бронированный костюм, используемый штурмовыми группами «Монолита». Производитель явно ценил функциональность больше, чем комфорт, поэтому обычный человек не сможет носить это чудовище больше двух часов.</Stalker_Apparel_Corundum.description>
+
+  <Stalker_Apparel_Convoy.label>ПСЗ-20W Конвой</Stalker_Apparel_Convoy.label>
+  <Stalker_Apparel_Convoy.description>Этот костюм представляет новое поколение в серии бронированных костюмов Personal Protection System. Опираясь на опыт своих предшественников, он был разработан в рекордно короткие сроки для удовлетворения особых требований отделения.</Stalker_Apparel_Convoy.description>
+
+  <Stalker_Apparel_Bulat.label>ПСЗ-12В Булат</Stalker_Apparel_Bulat.label>
+<Stalker_Apparel_Bulat.description>После того, как военные отказались от ПСЗ-12 в пользу «Берилла», большая партия этих бронекостюмов была списана и продана как излишки. В конце концов, почти все «Булаты» были куплены «Свободой».</Stalker_Apparel_Bulat.description>
+
+</LanguageData>

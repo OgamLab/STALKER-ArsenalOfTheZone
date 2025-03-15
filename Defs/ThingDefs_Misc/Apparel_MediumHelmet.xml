@@ -25,7 +25,7 @@
 	  <MoveSpeed>-0.1</MoveSpeed>
     </equippedStatOffsets>
    <recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Mediumhelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
@@ -88,7 +88,7 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Mediumhelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
@@ -178,7 +178,7 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Mediumhelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>

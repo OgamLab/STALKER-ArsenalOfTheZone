@@ -16,28 +16,35 @@
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
-	  <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+	   <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-      <Mass>0.4</Mass>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <Mass>0.5</Mass>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
 	 <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
     </equippedStatOffsets>
    <recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Lighthelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 	</recipeMaker>
+	 <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList Inherit="False">
-      <Plasteel>5</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
-	  <Cloth>45</Cloth>
+	<Chemfuel>10</Chemfuel>
+	 <Steel>30</Steel>
     </costList>
     <apparel>
+	   <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	   <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+	   <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <bodyPartGroups>
 	    <li>UpperHead</li>
         <li>FullHead</li>
@@ -59,7 +66,6 @@
     </comps>
 	 <researchPrerequisites>
       <li>Lighthelmet</li>
-	  <li>FlakArmor</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -80,23 +86,28 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>GasMask</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+	    <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+		<Chemfuel>10</Chemfuel>
+		 <Steel>25</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
-			<Mass>0.5</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+             <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<Mass>0.3</Mass>
 		</statBases>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -126,8 +137,7 @@
 			<li>Clothing</li>
 		</tradeTags>
 	<researchPrerequisites>
-     <li>Lighthelmet</li>
-	 <li>FlakArmor</li>
+     <li>GasMask</li>
     </researchPrerequisites>
 	</ThingDef>
 
@@ -147,23 +157,28 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>GasMask</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		 <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+		<Chemfuel>10</Chemfuel>
+		<Steel>35</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-			<Mass>0.5</Mass>
+			<MaxHitPoints>40</MaxHitPoints>
+			 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+             <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<Mass>0.2</Mass>
 		</statBases>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -191,8 +206,7 @@
 			<li>Clothing</li>
 		</tradeTags>
 	<researchPrerequisites>
-      <li>Lighthelmet</li>
-	  <li>FlakArmor</li>
+      <li>GasMask</li>
     </researchPrerequisites>
 	</ThingDef>
 	
@@ -212,23 +226,28 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>GasMask</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		 <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+		    <Chemfuel>10</Chemfuel>
+			<Steel>35</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.11</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.13</StuffEffectMultiplierInsulation_Heat>
-			<Mass>0.5</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+    		 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<Mass>0.3</Mass>
 		</statBases>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -257,10 +276,10 @@
 			<li>Clothing</li>
 		</tradeTags>
     <researchPrerequisites>
-      <li>Lighthelmet</li>
-	  <li>FlakArmor</li>
+      <li>GasMask</li>
     </researchPrerequisites>
 	</ThingDef>
+	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Stalker_Apparel_Glasses</defName>
 		<label>Ballistic Glasses</label>
@@ -278,14 +297,13 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Steel>40</Steel>
-			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>5</Plasteel>
 		</costList>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>0.75</Mass>
+			<MaxHitPoints>40</MaxHitPoints>
+			<Mass>0.05</Mass>
 			<EquipDelay>0.5</EquipDelay>
 			<!--<ArmorRating_Sharp>0.04</ArmorRating_Sharp> <!{1}** A little bit of armor to prevent triggering a warning when shot. **{1}>
 			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>-->
@@ -298,7 +316,6 @@
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Glasses/Glasses</wornGraphicPath>
 			<layers>
 			<li>EyeCover</li>
-				<!--<li>StrappedHead</li>-->
 			</layers>
 			<tags>
 				<li>IndustrialMilitaryAdvanced</li>
@@ -314,7 +331,6 @@
 			<li>Armor</li>
 		</tradeTags>
 	<researchPrerequisites>
-      <li>Lighthelmet</li>
 	  <li>FlakArmor</li>
     </researchPrerequisites>
 	</ThingDef>
@@ -335,28 +351,34 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Lighthelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		 <costStuffCount>20</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+		    <Chemfuel>10</Chemfuel>
+			 <Steel>40</Steel>
+            <Plasteel>20</Plasteel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.11</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.13</StuffEffectMultiplierInsulation_Heat>
+			 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		   	<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<Mass>0.5</Mass>
 		</statBases>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
-			<immuneToToxGasExposure>false</immuneToToxGasExposure>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -374,7 +396,6 @@
 		</tradeTags>
     <researchPrerequisites>
       <li>Lighthelmet</li>
-	  <li>FlakArmor</li>
     </researchPrerequisites>
 	</ThingDef>
 	
@@ -394,22 +415,28 @@
          <MoveSpeed>-0.2</MoveSpeed>
          </equippedStatOffsets>
 		<recipeMaker>
-			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<researchPrerequisite>Lighthelmet</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		 <costStuffCount>25</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Chemfuel>10</Chemfuel>
+	     	<Chemfuel>10</Chemfuel>
+			<Steel>45</Steel>
+            <Plasteel>25</Plasteel>
 		</costList>
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.11</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.13</StuffEffectMultiplierInsulation_Heat>
+			 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+             <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<Mass>0.5</Mass>
 		</statBases>
 		<apparel>
@@ -433,7 +460,6 @@
 		</tradeTags>
     <researchPrerequisites>
       <li>Lighthelmet</li>
-	  <li>FlakArmor</li>
     </researchPrerequisites>
 	</ThingDef>
 	

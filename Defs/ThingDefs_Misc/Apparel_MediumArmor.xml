@@ -6,7 +6,7 @@
     <description>Heavy armored suit used by “Monolith” assault teams. The manufacturer clearly valued functionality more than comfort, so a normal person won’t be able to wear this monstrosity for more than two hours.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Mediumarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -108,7 +108,7 @@
     <description>This suit represents a new generation in the Personal Protection System series of armored suits. Drawing from the experience of its predecessors, it was developed in record time to meet the specific demands of the Ward.</description>
     <possessionCount>1</possessionCount>
    <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Mediumarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -203,7 +203,7 @@
     <description>After the military rejected the PSZ-12 in favor of the Berill, a large batch of these armored suits was written off and sold as surplus inventory. In the end, almost all of the Bulats were bought by Freedom.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Mediumarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>

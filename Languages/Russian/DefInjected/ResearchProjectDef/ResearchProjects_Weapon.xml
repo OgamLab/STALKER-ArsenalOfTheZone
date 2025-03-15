@@ -8,11 +8,27 @@
 Эти документы не должны попасть в чужие руки: они явно заинтересуют аналитиков СБУ.</Gauss.description>
   <Gauss.generalRules.rulesStrings.0>subject-&gt;Пушка Гаусса</Gauss.generalRules.rulesStrings.0>
 
+  <GasMask.label>Противогаз</GasMask.label>
+  <GasMask.description>Противогаз — это средство индивидуальной защиты, используемое для защиты пользователя от вдыхания загрязняющих веществ и токсичных газов.</GasMask.description>
+  <GasMask.generalRules.rulesStrings.0>subject-&gt;Противогаз</GasMask.generalRules.rulesStrings.0>
+
+  <Lighthelmet.label>Легкий шлем</Lighthelmet.label>
+  <Lighthelmet.description>Легкий шлем. Обычно используется новичками, но пользуется уважением у опытных сталкеров. Изучайте и выбирайте только лучший шлем. для вылазок в Зону!</Lighthelmet.description>
+  <Lighthelmet.generalRules.rulesStrings.0>subject-&gt;Легкий шлем</Lighthelmet.generalRules.rulesStrings.0>
+
+  <Mediumhelmet.label>Средний шлем</Mediumhelmet.label>
+  <Mediumhelmet.description>Современный титановый шлем с арамидным покрытием.Получается хороший противогаз с фотохромными линзами.</Mediumhelmet.description>
+  <Mediumhelmet.generalRules.rulesStrings.0>subject-&gt;Средний шлем</Mediumhelmet.generalRules.rulesStrings.0>
+
+  <Heavyhelmet.label>Тяжелый шлем</Heavyhelmet.label>
+  <Heavyhelmet.description>Современный Тяжелый шлем с арамидным покрытием. Получается неплохой противогаз с фотохромными линзами.</Heavyhelmet.description>
+  <Heavyhelmet.generalRules.rulesStrings.0>subject-&gt;Тяжелый шлем</Heavyhelmet.generalRules.rulesStrings.0>
+
   <Lightweightarmor.label>Легкая броня</Lightweightarmor.label>
   <Lightweightarmor.description>Легкий комплект снаряжения. Обычно используется новичками, но пользуется уважением у опытных сталкеров,плохо защищенный от пуль стрелкового оружия.Изучайте и выбирайте только лучшую броню для вылазок в Зону!</Lightweightarmor.description>
   <Lightweightarmor.generalRules.rulesStrings.0>subject-&gt;Легкая броня</Lightweightarmor.generalRules.rulesStrings.0>
-  
-   <Scientificarmor.label>Научный костюм</Scientificarmor.label>
+
+  <Scientificarmor.label>Научный костюм</Scientificarmor.label>
   <Scientificarmor.description>Научный комплект снаряжения. Обычно используется учёными, но пользуется уважением у опытных сталкеров,плохо защищенный от пуль стрелкового оружия.Изучайте и выбирайте только лучшую броню для вылазок в Зону!</Scientificarmor.description>
   <Scientificarmor.generalRules.rulesStrings.0>subject-&gt;Научный костюм</Scientificarmor.generalRules.rulesStrings.0>
 
@@ -23,14 +39,6 @@
   <Heavyarmor.label>Тяжелая броня</Heavyarmor.label>
   <Heavyarmor.description>Тяжелый комплект снаряжения с усиленной броней. Обеспечивает надежную защиту от пуль и осколков. Способен защитить своего владельца от многих аномальных воздействий и радиации.</Heavyarmor.description>
   <Heavyarmor.generalRules.rulesStrings.0>subject-&gt;Тяжелая броня</Heavyarmor.generalRules.rulesStrings.0>
-
-  <Lighthelmet.label>Легкий шлем</Lighthelmet.label>
-  <Lighthelmet.description>Легкий шлем. Обычно используется новичками, но пользуется уважением у опытных сталкеров. Изучайте и выбирайте только лучший шлем. для вылазок в Зону!</Lighthelmet.description>
-  <Lighthelmet.generalRules.rulesStrings.0>subject-&gt;Легкий шлем</Lighthelmet.generalRules.rulesStrings.0>
-
-  <Mediumhelmet.label>Средний шлем</Mediumhelmet.label>
-  <Mediumhelmet.description>Современный титановый шлем с арамидным покрытием.Получается хороший противогаз с фотохромными линзами.</Mediumhelmet.description>
-  <Mediumhelmet.generalRules.rulesStrings.0>subject-&gt;Средний шлем</Mediumhelmet.generalRules.rulesStrings.0>
 
   <ExoskeletonI.label>Экзоскелет I</ExoskeletonI.label>
   <ExoskeletonI.description>Первое поколение экзоскелетов, неуклюжих, громоздких и со множеством уязвимых точек.</ExoskeletonI.description>

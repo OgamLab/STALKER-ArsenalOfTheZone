@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Stalker_Apparel_GasMaskMerc.label>Противогаз PA-7</Stalker_Apparel_GasMaskMerc.label>
+  <Stalker_Apparel_GasMaskMerc.description>Военная адаптация гражданского противогаза, оснащенная антибликовыми линзами и гибким креплением фильтра, которое можно прикрепить с любой стороны, что упрощает использование оружия для левшей.</Stalker_Apparel_GasMaskMerc.description>
+
+  <Stalker_Apparel_Facehugger.label>Противогаз PG-4 «Тиски»</Stalker_Apparel_Facehugger.label>
+  <Stalker_Apparel_Facehugger.description>Винтаж Противогаз гражданской обороны, искусно модифицированный для выдерживания суровых условий Зоны. Свое название маска получила из-за усиленного внутреннего каркаса, который слегка сдавливает лицо владельца.</Stalker_Apparel_Facehugger.description>
+
+  <Stalker_Apparel_PA10A.label>Противогаз PA-10</Stalker_Apparel_PA10A.label>
+  <Stalker_Apparel_PA10A.description>Новая, экономичная модификация военного противогаза с использованием более плотных материалов. Фильтр больше нельзя прикрепить с противоположной стороны, но корпус был уменьшен в размерах, чтобы компенсировать это ограничение.</Stalker_Apparel_PA10A.description>
+
+  <Stalker_Apparel_Aeroprotection.label>Противогаз «Аэрозащита»</Stalker_Apparel_Aeroprotection.label>
+  <Stalker_Apparel_Aeroprotection.description>Стандартное снаряжение для солдат Уорда, этот противогаз обеспечивает надежную защиту от химических и радиационных опасностей. Усиленный козырек добавляет дополнительный уровень защиты от шальных осколков.</Stalker_Apparel_Aeroprotection.description>
+
+  <Stalker_Apparel_Glasses.label>Баллистичские очки</Stalker_Apparel_Glasses.label>
+  <Stalker_Apparel_Glasses.description>Баллистические военные очки — это специальные очки, которые защищают глаза от крупных частиц, пыли и сильного потока воздуха.</Stalker_Apparel_Glasses.description>
+
+  <Stalker_Apparel_TacticalHelmet.label>Баллистичний шлем</Stalker_Apparel_TacticalHelmet.label>
+  <Stalker_Apparel_TacticalHelmet.description>Этот головной убор обеспечивает базовую защиту от пистолетных пуль. Он не включает в себя противогаз.</Stalker_Apparel_TacticalHelmet.description>
+
+  <Stalker_Apparel_TacticalHelmetGas.label>Тактический шлем</Stalker_Apparel_TacticalHelmetGas.label>
+  <Stalker_Apparel_TacticalHelmetGas.description>Эта эффективная комбинация баллистического шлема и военного противогаза широко применяется военными подразделениями, действующими в Зоне.</Stalker_Apparel_TacticalHelmetGas.description>
+
+
+</LanguageData>

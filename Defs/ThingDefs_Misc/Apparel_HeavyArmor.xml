@@ -7,7 +7,7 @@
     <description>A heavy armor suit, which is essentially an exoskeleton underarmor. Its protective parameters are similar to those of a full-fledged exoskeleton, but the lack of servos and batteries does not provide increased strength. On the other hand, it is cheaper to maintain.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Heavyarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 				<li>TableMachining</li>
 	  </recipeUsers>
@@ -24,10 +24,17 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
+	 <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList Inherit="False">
-      <Plasteel>150</Plasteel>
-      <ComponentSpacer>6</ComponentSpacer>
-	  <Cloth>100</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
@@ -98,8 +105,7 @@
       <li>BasicClothing</li>
     </tradeTags>
 	 <researchPrerequisites>
-      <li>Mediumarmor</li>
-	  <li>FlakArmor</li>
+      <li>Heavyarmor</li>
     </researchPrerequisites>
   </ThingDef>
 	

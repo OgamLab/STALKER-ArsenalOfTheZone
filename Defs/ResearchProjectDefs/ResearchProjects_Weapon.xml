@@ -42,79 +42,27 @@ These documents must not fall into the wrong hands: they will clearly interest S
     </generalRules>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
-    <defName>Lightweightarmor</defName>
-    <label>lightweight armor</label>
-    <description>Lightweight gear. Usually used by beginners, but gains respect from experienced stalkers who are poorly protected from small arms bullets.</description>
+ 
+  
+  
+     <ResearchProjectDef>
+    <defName>GasMask</defName>
+    <label>Gas mask</label>
+    <description>A gas mask is a piece of personal protective equipment used to protect the wearer from inhaling airborne pollutants and toxic gases.</description>
     <tab>STALKER</tab>
+	<!-- <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>-->
 	 <techLevel>Industrial</techLevel>
-    <baseCost>2000</baseCost>
+    <baseCost>500</baseCost>
     <researchViewX>1.00</researchViewX>
     <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
-        <li>subject->lightweight armor</li>
+        <li>subject->Gas mask</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
-   
-    <ResearchProjectDef>
-    <defName>Scientificarmor</defName>
-    <label>Scientific suit</label>
-    <description>Scientific set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
-    <tab>STALKER</tab>
-	 <techLevel>Industrial</techLevel>
-	 <prerequisites>
-      <li>Lightweightarmor</li>
-    </prerequisites>
-    <baseCost>3000</baseCost>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>1.00</researchViewY>
-    <generalRules>
-      <rulesStrings>
-        <li>subject->Scientific suit</li>
-      </rulesStrings>
-    </generalRules>
-  </ResearchProjectDef> 
-  
-  <ResearchProjectDef>
-    <defName>Mediumarmor</defName>
-    <label>Medium armor</label>
-    <description>Medium set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
-    <tab>STALKER</tab>
-	 <techLevel>Industrial</techLevel>
-	 <prerequisites>
-      <li>Lightweightarmor</li>
-    </prerequisites>
-    <baseCost>3000</baseCost>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
-    <generalRules>
-      <rulesStrings>
-        <li>subject->Medium armor</li>
-      </rulesStrings>
-    </generalRules>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>Heavyarmor</defName>
-    <label>Heavy armor</label>
-    <description>A heavy set of equipment with reinforced body armor Provides reliable protection against bullet and shrapnel damage. Capable of protecting its wearer from many abnormal effects and radiation.</description>
-    <tab>STALKER</tab>
-	 <techLevel>Industrial</techLevel>
-	 <prerequisites>
-      <li>Mediumarmor</li>
-    </prerequisites>
-    <baseCost>4000</baseCost>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
-    <generalRules>
-      <rulesStrings>
-        <li>subject->Heavy armor</li>
-      </rulesStrings>
-    </generalRules>
-  </ResearchProjectDef>
-  
   
     <ResearchProjectDef>
     <defName>Lighthelmet</defName>
@@ -122,12 +70,12 @@ These documents must not fall into the wrong hands: they will clearly interest S
     <description>Lightweight  helmet. Usually used by beginners, but respected by experienced stalkers.Study and choose only the best helmet. for forays into the Zone!</description>
     <tab>STALKER</tab>
 	 <prerequisites>
-      <li>Lightweightarmor</li>
+      <li>GasMask</li>
     </prerequisites>
 	 <techLevel>Industrial</techLevel>
     <baseCost>1000</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>1.00</researchViewY>
+    <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->lightweight helmet</li>
@@ -147,13 +95,109 @@ These documents must not fall into the wrong hands: they will clearly interest S
     </prerequisites>
     <baseCost>1500</baseCost>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>1.00</researchViewY>
+    <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->Medium helmet</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
+
+<ResearchProjectDef>
+    <defName>Heavyhelmet</defName>
+    <label>Heavy helmet</label>
+    <description>Modern Heavy helmet with aramid coating.It turns out to be a good gas mask with photochromic lenses.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Mediumhelmet</li>
+    </prerequisites>
+    <baseCost>2000</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Heavy helmet</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+
+
+
+ <ResearchProjectDef>
+    <defName>Lightweightarmor</defName>
+    <label>lightweight armor</label>
+    <description>Lightweight gear. Usually used by beginners, but gains respect from experienced stalkers who are poorly protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+    <baseCost>2000</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->lightweight armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+   
+    <ResearchProjectDef>
+    <defName>Scientificarmor</defName>
+    <label>Scientific suit</label>
+    <description>Scientific set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Scientific suit</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef> 
+  
+  <ResearchProjectDef>
+    <defName>Mediumarmor</defName>
+    <label>Medium armor</label>
+    <description>Medium set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Medium armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Heavyarmor</defName>
+    <label>Heavy armor</label>
+    <description>A heavy set of equipment with reinforced body armor Provides reliable protection against bullet and shrapnel damage. Capable of protecting its wearer from many abnormal effects and radiation.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Mediumarmor</li>
+    </prerequisites>
+    <baseCost>4000</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Heavy armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
 
 
 
@@ -167,8 +211,8 @@ These documents must not fall into the wrong hands: they will clearly interest S
       <li>Mediumarmor</li>
     </prerequisites>
     <baseCost>4000</baseCost>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>0.50</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->ExoskeletonI</li>
@@ -186,8 +230,8 @@ These documents must not fall into the wrong hands: they will clearly interest S
       <li>ExoskeletonI</li>
     </prerequisites>
     <baseCost>4500</baseCost>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>0.50</researchViewY>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->ExoskeletonII</li>
@@ -205,8 +249,8 @@ These documents must not fall into the wrong hands: they will clearly interest S
       <li>ExoskeletonII</li>
     </prerequisites>
     <baseCost>5000</baseCost>
-    <researchViewX>4.00</researchViewX>
-    <researchViewY>0.50</researchViewY>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->ExoskeletonIII</li>

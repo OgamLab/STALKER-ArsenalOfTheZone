@@ -6,7 +6,7 @@
     <description>A top-notch suit manufactured by a defense company outside the Zone. It integrates a lightweight bulletproof vest, a sealed breathing system, and advanced technologies designed to mitigate the harmful impact of anomalies and radiation.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
-     <researchPrerequisite>FlakArmor</researchPrerequisite>
+     <researchPrerequisite>Scientificarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
 		<li>TableMachining</li>
 	  </recipeUsers>
