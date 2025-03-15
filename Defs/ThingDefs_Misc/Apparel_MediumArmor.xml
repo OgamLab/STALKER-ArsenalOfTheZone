@@ -104,7 +104,7 @@
   
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Stalker_Apparel_Convoy</defName>
-    <label>PSZ-20W Convoy</label>
+    <label>PSZ-20 Convoy</label>
     <description>This suit represents a new generation in the Personal Protection System series of armored suits. Drawing from the experience of its predecessors, it was developed in record time to meet the specific demands of the Ward.</description>
     <possessionCount>1</possessionCount>
    <recipeMaker Inherit="False">
@@ -199,7 +199,7 @@
   
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Stalker_Apparel_Bulat</defName>
-    <label>PSZ-12V Bulat</label>
+    <label>PSZ-12 Bulat</label>
     <description>After the military rejected the PSZ-12 in favor of the Berill, a large batch of these armored suits was written off and sold as surplus inventory. In the end, almost all of the Bulats were bought by Freedom.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">

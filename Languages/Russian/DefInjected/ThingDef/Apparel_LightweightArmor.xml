@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Stalker_Apparel_ArmorMerc.label>Костюм наемника</Stalker_Apparel_ArmorMerc.label>
-  <Stalker_Apparel_ArmorMerc.description>Костюм, разработанный наемником, на основе экипировки спецназа. Пластины из высокомолекулярного полиэтилена и арамидная прокладка не только звучат футуристично, но и обеспечивают превосходную защиту от высококоррозионного оружия Zone.</Stalker_Apparel_ArmorMerc.description>
+  <Stalker_Apparel_ArmorMerc.label>Костюм "Наёмник"</Stalker_Apparel_ArmorMerc.label>
+  <Stalker_Apparel_ArmorMerc.description>Костюм, разработанный наёмниками, на основе экипировки спецназа. Пластины из высокомолекулярного полиэтилена и арамидная прокладка не только звучат футуристично, но и обеспечивают превосходную защиту от высококоррозионного оружия Зоны.</Stalker_Apparel_ArmorMerc.description>
 
-  <Stalker_Apparel_ArmorMarauder.label>Костюм мародера</Stalker_Apparel_ArmorMarauder.label>
+  <Stalker_Apparel_ArmorMarauder.label>Костюм "Мародер"</Stalker_Apparel_ArmorMarauder.label>
   <Stalker_Apparel_ArmorMarauder.description>Комбинация стильной куртки и достойного бронежилета. Этот наряд, возможно, не лучший выбор для исследования аномалий, но когда дело доходит до того, чтобы вытрясти из несчастного преследователя, вы не найдете ничего лучше.</Stalker_Apparel_ArmorMarauder.description>
 
-  <Stalker_Apparel_PSZ5A.label>Универсальная защита PSZ-5D</Stalker_Apparel_PSZ5A.label>
-  <Stalker_Apparel_PSZ5A.description>Усовершенствованная версия PSZ-5, специально адаптированная для охоты на мутантов, произведенная опытными специалистами «Долга».</Stalker_Apparel_PSZ5A.description>
+  <Stalker_Apparel_PSZ5A.label>ПСЗ-5</Stalker_Apparel_PSZ5A.label>
+  <Stalker_Apparel_PSZ5A.description>ПСЗ-5, специально адаптированная для условий зоны отчуждения, произведенная опытными сталкерами.</Stalker_Apparel_PSZ5A.description>
 
-  <Stalker_Apparel_Tourist.label>Костюм туриста</Stalker_Apparel_Tourist.label>
+  <Stalker_Apparel_Tourist.label>Костюм "Турист"</Stalker_Apparel_Tourist.label>
   <Stalker_Apparel_Tourist.description>Бывший владелец этого костюма отлично разбирался в распределении веса и эшелонировании снаряжения. Переработанные карманы, корсет, разгружающий спину, дополнительные подсумки и дорожный рюкзак позволяют нести больший вес, что очень удобно во время длительных рейдов в Зону.</Stalker_Apparel_Tourist.description>
 
-  <Stalker_Apparel_Sunrise.label>Костюм Заря</Stalker_Apparel_Sunrise.label>
+  <Stalker_Apparel_Sunrise.label>Костюм "Заря"</Stalker_Apparel_Sunrise.label>
   <Stalker_Apparel_Sunrise.description>Шедевр местного мастерства, этот костюм сочетает в себе два слоя прорезиненной ткани с полимерной подкладкой и бронежилет, эффективный против пистолетных пуль. Разумная цена и потенциал модернизации Sunrise закрепили за ним статус самого продаваемого товара.</Stalker_Apparel_Sunrise.description>
 
-  <Stalker_Apparel_Beryl.label>Бронированный костюм Берилл-5М</Stalker_Apparel_Beryl.label>
+  <Stalker_Apparel_Beryl.label>Бронированный костюм "Берилл-5М"</Stalker_Apparel_Beryl.label>
   <Stalker_Apparel_Beryl.description>Этот бронированный специализированный костюм, разработанный для армейских спецподразделений, представляет собой обширную модернизацию серии ПСЗ-5. Хотя это не самый практичный вариант для длительных походов в Зону, его пользователи редко оказываются в таких ситуациях.</Stalker_Apparel_Beryl.description>
 
-  <Stalker_Apparel_PSZ-9I.label>PSZ-9I Сокол</Stalker_Apparel_PSZ-9I.label>
+  <Stalker_Apparel_PSZ-9I.label>ПСЗ-9</Stalker_Apparel_PSZ-9I.label>
   <Stalker_Apparel_PSZ-9I.description>Партизанская война в Зоне — это целое искусство, и этот костюм — творение тех, кто им овладел. Версия Сокол одного из самых эффективных бронекостюмов по эту сторону Периметра.</Stalker_Apparel_PSZ-9I.description>
 
 

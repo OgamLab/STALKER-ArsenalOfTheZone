@@ -205,8 +205,8 @@
   
 	<ThingDef ParentName="ArmorSmithableBase">
     <defName>Stalker_Apparel_PSZ5A</defName>
-    <label>PSZ-5D Universal Protection</label>
-    <description>An upgraded version of the PSZ-5 specifically adapted for mutant hunting, produced by Duty’s skilled technicians.</description>
+    <label>PSZ-5</label>
+    <description>PSZ-5, specially adapted for the conditions of the exclusion zone, produced by experienced stalkers.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
      <researchPrerequisite>Lightweightarmor</researchPrerequisite>
@@ -616,7 +616,7 @@
   
     <ThingDef ParentName="ApparelMakeableBase">
     <defName>Stalker_Apparel_PSZ-9I</defName>
-    <label>PSZ-9I Falcon</label>
+    <label>PSZ-9</label>
     <description>Guerilla warfare in the Zone is a entire art on its own, and this suit is the creation of those who have mastered it. A Sparker version of one of the most efficient armored suits across this side of the Perimeter.</description>
     <possessionCount>1</possessionCount>
      <recipeMaker Inherit="False">
