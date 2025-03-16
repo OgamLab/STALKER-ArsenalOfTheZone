@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Bandit_mask</defName>
+    <label>Bandit mask</label>
+    <description>A boyish knitted hat that covers the entire face is often associated with the image of bandits or marauders who want to hide their identity. Such a hat is usually described as thick, dark (usually black or dark gray), with slits for the eyes and sometimes for the mouth. It can be made of coarse wool or other dense material to provide warmth and camouflage in the harsh conditions of the Zone.This hat not only protects from the cold, but also creates a frightening appearance, which corresponds to the style of bandits who want to inspire fear and remain unrecognizable. In some cases, such hats can have additional details, such as stripes, dirt or scuffs, to emphasize their "beaten" state and belonging to the lower strata of stalker society.In terms of visual style, such a hat resembles a balaclava, but with a more "homemade" and gloomy design.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/BanditFullMask/BanditFullMaskIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>105</displayPriority>
+    </recipeMaker>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BanditFullMask/BanditFullMask</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+<ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Bandit_balaclava</defName>
+    <label>Bandit balaclava</label>
+    <description>A boyish knitted hat that covers the entire face is often associated with the image of bandits or marauders who want to hide their identity. Such a hat is usually described as thick, dark (usually black or dark gray), with slits for the eyes and sometimes for the mouth. It can be made of coarse wool or other dense material to provide warmth and camouflage in the harsh conditions of the Zone.This hat not only protects from the cold, but also creates a frightening appearance, which corresponds to the style of bandits who want to inspire fear and remain unrecognizable. In some cases, such hats can have additional details, such as stripes, dirt or scuffs, to emphasize their "beaten" state and belonging to the lower strata of stalker society.In terms of visual style, such a hat resembles a balaclava, but with a more "homemade" and gloomy design.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/BanditFull2Mask/BanditFull2MaskIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>105</displayPriority>
+    </recipeMaker>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BanditFull2Mask/BanditFull2Mask</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Bandit</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+ 
+ 
+ 
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Bandit_Cloth_Mask</defName>
+    <label>Bandit face mask</label>
+    <description>The bandit mask is most often found among members of bandit groups, such as "Bandits" or "Renegades". It symbolizes their belonging to the criminal world of the Zone and their readiness for cruel actions. The mask can be found on the bodies of killed bandits, in their hideouts, or purchased from traders specializing in illegal goods.Interesting fact:Some stalkers believe that wearing a bandit mask can help avoid the attention of mutants or even spirits of the Zone, although there is no scientific evidence to support this.</description>
+    <techLevel>Neolithic</techLevel>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/HalfMask/HalfMaskIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>0.04</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.02</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/HalfMask/HalfMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <defaultOutfitTags>
+        <li>Bandit</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>165</displayPriority>
+    </recipeMaker>
+	 
+  </ThingDef>
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Bandit_Cloth2_Mask</defName>
+    <label>Bandit advanced face mask</label>
+    <description>The bandit mask is most often found among members of bandit groups, such as "Bandits" or "Renegades". It symbolizes their belonging to the criminal world of the Zone and their readiness for cruel actions. The mask can be found on the bodies of killed bandits, in their hideouts, or purchased from traders specializing in illegal goods.Interesting fact:Some stalkers believe that wearing a bandit mask can help avoid the attention of mutants or even spirits of the Zone, although there is no scientific evidence to support this.</description>
+    <techLevel>Neolithic</techLevel>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Half2Mask/Half2MaskIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>0.04</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.02</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Half2Mask/Half2Mask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <defaultOutfitTags>
+        <li>Bandit</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>165</displayPriority>
+    </recipeMaker>
+	 
+  </ThingDef>
+</Defs>

@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Stalker_Apparel_Altyn.label>Шлем Алтын</Stalker_Apparel_Altyn.label>
-<Stalker_Apparel_Altyn.description>Алтын — титановый шлем, разработанный в Советском Союзе и принятый на вооружение КГБ. Обеспечивая отличную защиту владельцу и оснащенный бронированным забралом, он стал популярен среди подразделений спецназа российских внутренних дел и служб безопасности.</Stalker_Apparel_Altyn.description>
+  <Stalker_Apparel_Altyn.label>Шлем Алтын</Stalker_Apparel_Altyn.label>
+  <Stalker_Apparel_Altyn.description>Алтын — титановый шлем, разработанный в Советском Союзе и принятый на вооружение КГБ. Обеспечивая отличную защиту владельцу и оснащенный бронированным забралом, он стал популярен среди подразделений спецназа российских внутренних дел и служб безопасности.</Stalker_Apparel_Altyn.description>
+
+  <Stalker_Apparel_Mask-1Sh.label>Шлем Маска-1Щ</Stalker_Apparel_Mask-1Sh.label>
+  <Stalker_Apparel_Mask-1Sh.description>-/Придумать описание/-</Stalker_Apparel_Mask-1Sh.description>
 
 
 </LanguageData>

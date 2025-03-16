@@ -25,7 +25,29 @@
 		</value>
 	</Operation>
 	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_GPMask"]/apparel/layers</xpath>
+		<value>
+			<li>OnHead</li>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
 	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_GPMask"]/statBases</xpath>
+		<value>
+			<Bulk>3.0</Bulk>
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_GPMask"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.40</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Facehugger"]/apparel/layers</xpath>
@@ -507,4 +529,12 @@
 		</value>
 	</Operation>
 	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Mask-1Sh"]/statBases</xpath>
+		<value>
+			<Bulk>15.05</Bulk>
+			<ArmorRating_Sharp>7.6</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Blunt>63.0</ArmorRating_Blunt>		
+		</value>
+	</Operation>
 </Patch>

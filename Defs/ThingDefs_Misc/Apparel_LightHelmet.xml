@@ -69,6 +69,71 @@
     </researchPrerequisites>
   </ThingDef>
   
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Stalker_Apparel_GPMask</defName>
+    <label>GP-5 Gas Mask</label>
+    <description>The GP-5 gas mask is a classic means of personal protection, widely used in the exclusion zone. Despite its outdated design, it remains a reliable tool for survival in conditions of increased radiation, chemical contamination or when encountering anomalous phenomena. Its rubber mask with round glass lenses and a characteristic filter element make it recognizable among stalkers.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/GP-5/GP-5</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+	   <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <Mass>0.5</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+	 <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+   <recipeMaker>
+			<researchPrerequisite>Lighthelmet</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+	</recipeMaker>
+	 <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList Inherit="False">
+	<Chemfuel>10</Chemfuel>
+	 <Steel>30</Steel>
+    </costList>
+    <apparel>
+	   <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	   <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+	   <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+	    <li>UpperHead</li>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/GP-5/GP-5</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>WearingPsYGasMask</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+	 <researchPrerequisites>
+      <li>Lighthelmet</li>
+    </researchPrerequisites>
+  </ThingDef>
   
   <ThingDef ParentName="HatMakeableBase">
 	<defName>Stalker_Apparel_Facehugger</defName>

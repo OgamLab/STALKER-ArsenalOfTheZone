@@ -206,7 +206,7 @@
 	<ThingDef ParentName="ArmorSmithableBase">
     <defName>Stalker_Apparel_PSZ5A</defName>
     <label>PSZ-5</label>
-    <description>PSZ-5, specially adapted for the conditions of the exclusion zone, produced by experienced stalkers.</description>
+    <description>The PSZ-5 is one of the most popular protective suits in the Zone, having earned the trust of stalkers due to its reliability and versatility. This army armored suit, originally created for standard combat missions, was adapted for survival in the Zone. It provides basic protection from bullets, shrapnel and anomalies, making it an ideal choice for beginners and experienced stalkers who prefer balanced equipment. Despite the lack of specialized upgrades, the PSZ-5 remains a practical and affordable option for those looking for reliable protection without frills. Its robust design and modular system allow for upgrades depending on the task, be it hunting mutants, exploring anomalies or combat clashes. The PSZ-5 is a time-tested suit that continues to be a symbol of survival in the harsh conditions of the Zone.</description>
     <possessionCount>1</possessionCount>
   <recipeMaker Inherit="False">
      <researchPrerequisite>Lightweightarmor</researchPrerequisite>

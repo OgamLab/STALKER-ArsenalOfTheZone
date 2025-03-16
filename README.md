@@ -8,7 +8,7 @@
 	- M860 Cracker 
 	- TOZ BM-16    
 	- Otboynic     
-	- SPSA-12      
+	- SPSA-14      
 	- Saiga-12k    
 	- Grom S-14  
 	- AKM-74      

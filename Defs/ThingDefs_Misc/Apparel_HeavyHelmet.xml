@@ -35,7 +35,7 @@
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.11</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.13</StuffEffectMultiplierInsulation_Heat>
 			<Mass>1.5</Mass>
@@ -48,6 +48,103 @@
 				 <li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Altyn/Altyn</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+			</tags>
+			 <defaultOutfitTags>
+			<li>Soldier</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.33,0.33,0.33,1)</only>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.65,0.65,0.65,1)</only>
+			</li>
+			<li>
+			  <weight>6</weight>
+			  <min>(0.3,0.3,0.3,1)</min>
+			  <max>(0.5,0.5,0.5,1)</max>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.9,0.9,0.9,1)</only>
+			</li>
+		  </options>
+		</colorGenerator>
+		<tradeTags>
+		  <li>Armor</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+		</modExtensions>
+    <researchPrerequisites>
+       <li>Heavyhelmet</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+	</ThingDef>
+	
+	
+	 <ThingDef ParentName="ArmorHelmetMakeableBase">
+	<defName>Stalker_Apparel_Mask-1Sh</defName>
+    <label>Mask-1sh Helmet</label>
+    <description>-/Придумать описание/-</description>
+		<graphicData>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1SH</texPath>
+			 <graphicClass>Graphic_Single</graphicClass>
+		     <shaderType>CutoutMultiMask</shaderType>
+			 <drawSize>0.65</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		 <equippedStatOffsets>
+         <MoveSpeed>-0.2</MoveSpeed>
+         </equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>Heavyhelmet</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		 <costStuffCount>45</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
+		<costList>
+		    <Plasteel>70</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Chemfuel>5</Chemfuel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.11</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.13</StuffEffectMultiplierInsulation_Heat>
+			<Mass>1.6</Mass>
+		</statBases>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<bodyPartGroups>
+				 <li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1SH</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
