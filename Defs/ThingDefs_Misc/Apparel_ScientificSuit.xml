@@ -18,7 +18,7 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/SEVA/SEVA</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/SEVA/SEVAIco</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.0</drawSize>
@@ -58,23 +58,24 @@
 				<li>Arms</li>
 				<li>Hands</li>
 				<li>Feet</li>
-			</bodyPartGroups>
+		</bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SEVA/SEVA</wornGraphicPath>
 	  <blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
 	  <parentTagDef>ApparelBody</parentTagDef>
 	  <drawData>
         <defaultData>
-          <layer>83</layer>
+          <layer>75</layer>
         </defaultData>
       </drawData>
 	  <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <layers> 
+	    <li>EyeCover</li>
 	    <li>Overhead</li>
 	    <li>OnSkin</li>
         <li>Middle</li>
         <li>Shell</li>
       </layers>
-	  <renderSkipFlags>
+	         <renderSkipFlags>
 			  <li>Hair</li>
 			  <li>Beard</li>
 			  <li>Eyes</li>

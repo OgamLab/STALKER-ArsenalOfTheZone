@@ -123,7 +123,7 @@
 <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_SEVA"]/apparel/layers</xpath>
 		<value>
-			<li>StrappedHead</li>
+			 <li>StrappedHead</li>
 		</value>
 	</Operation>
 
@@ -535,6 +535,19 @@
 			<Bulk>15.05</Bulk>
 			<ArmorRating_Sharp>7.6</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
 			<ArmorRating_Blunt>63.0</ArmorRating_Blunt>		
+		</value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ApparelLayerDef[defName="StrappedHead"]/modExtensions</xpath>
+		<value>
+			<modExtensions>
+				<li Class="CombatExtended.ApparelLayerExtension">
+				<IsHeadwear>false</IsHeadwear>
+			    </li>
+			</modExtensions>
 		</value>
 	</Operation>
 </Patch>
