@@ -34,12 +34,7 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Stalker_Apparel_RESP"]/equippedStatOffsets</xpath>
-		<value>
-			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>			
-		</value>
-	</Operation>
+	 
 	
 	
 	<Operation Class="PatchOperationAdd">
