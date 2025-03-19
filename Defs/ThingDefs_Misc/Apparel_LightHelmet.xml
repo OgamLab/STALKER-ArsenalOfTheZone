@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
  
- 
+ <ThingDef ParentName="HatMakeableBase">
+    <defName>Stalker_Apparel_RESP</defName>
+    <label>Respirator</label>
+    <description>A standard respirator used by stalkers to protect their respiratory system. It is equipped with filters that trap toxic substances, dust, and radionuclides. Despite its simple design, it provides basic protection in the Zone. However, in conditions of strong radiation or chemical threats, it is recommended to use more specialized protective equipment.</description>
+    <techLevel>Neolithic</techLevel>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RESP/RESP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1)</drawSize>
+    </graphicData>
+    <costStuffCount>5</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList Inherit="False">
+	<Chemfuel>8</Chemfuel>
+	 <Steel>10</Steel>
+    </costList>
+	<recipeMaker>
+			<researchPrerequisite>GasMask</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+	</recipeMaker>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>0.04</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.02</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RESP/RESP</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <defaultOutfitTags>
+        <li>Bandit</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
   
   <ThingDef ParentName="HatMakeableBase">
     <defName>Stalker_Apparel_GasMaskMerc</defName>
@@ -50,6 +112,72 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PA-7/PA-7</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>WearingPsYGasMask</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+	 <researchPrerequisites>
+      <li>Lighthelmet</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Stalker_Apparel_Screen</defName>
+    <label>Helmet "Barrier"</label>
+    <description>A lightweight helmet with a sealed visor, designed to protect the face from certain abnormal effects. Judging by the technology, it was developed by the same defense research institute as the SEVA suit — presumably for use with army protective suits.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Screen/Screen</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+	   <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <Mass>0.5</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+	 <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+   <recipeMaker>
+			<researchPrerequisite>Lighthelmet</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+	</recipeMaker>
+	 <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList Inherit="False">
+	<Chemfuel>10</Chemfuel>
+	 <Steel>30</Steel>
+    </costList>
+    <apparel>
+	   <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	   <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+	   <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+	    <li>UpperHead</li>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Screen/Screen</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -344,6 +472,79 @@
       <li>GasMask</li>
     </researchPrerequisites>
 	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="HatMakeableBase">
+	<defName>Stalker_Apparel_Optic</defName>
+    <label>Optician Gas Mask</label>
+    <description>A civilian-grade gas mask featuring a solid visor and the option to mount a pair of filters. Fairly popular in the Zone.</description>
+		<graphicData>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Optic/Optic</texPath>
+             <graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>0.7</drawSize>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<techLevel>Industrial</techLevel>
+		<generateAllowChance>0.5</generateAllowChance>
+		 <equippedStatOffsets>
+         <MoveSpeed>-0.2</MoveSpeed>
+         </equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GasMask</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		 <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+           <li>Fabric</li>
+           <li>Leathery</li>
+        </stuffCategories>
+		<costList>
+		    <Chemfuel>10</Chemfuel>
+			<Steel>35</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+    		 <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<Mass>0.3</Mass>
+		</statBases>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<bodyPartGroups>
+				<li>Eyes</li>
+				<li>Teeth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Optic/Optic</wornGraphicPath>
+	        <useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+			</tags>
+		</apparel>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>WearingPsYGasMask</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+    <researchPrerequisites>
+      <li>GasMask</li>
+    </researchPrerequisites>
+	</ThingDef>
+	
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Stalker_Apparel_Glasses</defName>

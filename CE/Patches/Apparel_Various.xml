@@ -25,6 +25,48 @@
 		</value>
 	</Operation>
 	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_RESP"]/statBases</xpath>
+		<value>
+			<Bulk>3.0</Bulk>
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_RESP"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Screen"]/apparel/layers</xpath>
+		<value>
+			<li>OnHead</li>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Screen"]/statBases</xpath>
+		<value>
+			<Bulk>3.0</Bulk>
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Screen"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.40</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_GPMask"]/apparel/layers</xpath>
 		<value>
@@ -76,6 +118,32 @@
 	</Operation>
 
 
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/apparel/layers</xpath>
+		<value>
+			<layers>
+				<li>StrappedHead</li>
+			</layers>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/statBases</xpath>
+		<value>
+			<Bulk>3.0</Bulk>
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.40</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+
 	 <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases</xpath>
 		<value>
@@ -120,12 +188,7 @@
 		</value>
 	</Operation>
 
-<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_SEVA"]/apparel/layers</xpath>
-		<value>
-			 <li>StrappedHead</li>
-		</value>
-	</Operation>
+
 
    <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorExohelmet"]/statBases</xpath>
@@ -338,6 +401,13 @@
              <CarryWeight>55</CarryWeight>
 			<CarryBulk>65</CarryBulk>
 			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>		
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_SEVA"]/apparel/layers</xpath>
+		<value>
+			 <li>StrappedHead</li>
 		</value>
 	</Operation>
 	
