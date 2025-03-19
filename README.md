@@ -47,6 +47,14 @@
 - Ballistic Glasses
 - Ballistic Helmet
 - Tactical Helmet
+- Respirator
+- Optician Gas Mask
+- Helmet "Barrier"
+- Bandit mask
+- Bandit balaclava
+- Bandit face mask
+- Bandit advanced face mask
+
 
 (Medium Helmet):
 - Exohelmet
