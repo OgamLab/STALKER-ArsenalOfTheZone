@@ -38,7 +38,7 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+      <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <apparel>
       <developmentalStageFilter>Child, Adult</developmentalStageFilter>

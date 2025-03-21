@@ -75,7 +75,7 @@
 <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_Bandit_balaclava</defName>
     <label>Bandit balaclava</label>
-    <description>A boyish knitted hat that covers the entire face is often associated with the image of bandits or marauders who want to hide their identity. Such a hat is usually described as thick, dark (usually black or dark gray), with slits for the eyes and sometimes for the mouth. It can be made of coarse wool or other dense material to provide warmth and camouflage in the harsh conditions of the Zone.This hat not only protects from the cold, but also creates a frightening appearance, which corresponds to the style of bandits who want to inspire fear and remain unrecognizable. In some cases, such hats can have additional details, such as stripes, dirt or scuffs, to emphasize their "beaten" state and belonging to the lower strata of stalker society.In terms of visual style, such a hat resembles a balaclava, but with a more "homemade" and gloomy design.</description>
+    <description>A simple knitted balaclava, which is preferred by bandits. It does not provide serious protection, but hides the face, adding to the intimidating look. Often soaked with dust and sweat, which makes it not the most pleasant accessory. However, in the conditions of the Zone, even such a trifle can be useful - at least to protect from wind and sand.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/BanditFull2Mask/BanditFull2MaskIco</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -209,7 +209,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_Bandit_Cloth2_Mask</defName>
     <label>Bandit advanced face mask</label>
-    <description>The bandit mask is most often found among members of bandit groups, such as "Bandits" or "Renegades". It symbolizes their belonging to the criminal world of the Zone and their readiness for cruel actions. The mask can be found on the bodies of killed bandits, in their hideouts, or purchased from traders specializing in illegal goods.Interesting fact:Some stalkers believe that wearing a bandit mask can help avoid the attention of mutants or even spirits of the Zone, although there is no scientific evidence to support this.</description>
+    <description>This simple but effective mask is made of thick fabric, probably from old clothes or rags found in the Zone. The mask covers the lower part of the face, leaving only narrow slits for the mouth, allowing the wearer to breathe, but hiding their identity. The fabric is soaked with dust and the smell of the Zone, and traces of abrasions and small holes are visible along the edges.The mask is ideal for stalkers who prefer to remain unnoticed or hide their emotions. It does not provide protection from radiation or chemicals, but can be useful for filtering dust or camouflage in the dark.</description>
     <techLevel>Neolithic</techLevel>
     <possessionCount>1</possessionCount>
     <graphicData>

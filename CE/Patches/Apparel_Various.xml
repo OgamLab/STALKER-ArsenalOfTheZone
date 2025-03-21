@@ -631,7 +631,9 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_HAS"]/equippedStatOffsets</xpath>
 		<value>
-			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>			
+			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>	
+            <CarryWeight>65</CarryWeight>
+			<CarryBulk>60</CarryBulk>				
 		</value>
 	</Operation>
 	
