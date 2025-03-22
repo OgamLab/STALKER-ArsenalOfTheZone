@@ -7,7 +7,8 @@
     <description>A boyish knitted hat that covers the entire face is often associated with the image of bandits or marauders who want to hide their identity. Such a hat is usually described as thick, dark (usually black or dark gray), with slits for the eyes and sometimes for the mouth. It can be made of coarse wool or other dense material to provide warmth and camouflage in the harsh conditions of the Zone.This hat not only protects from the cold, but also creates a frightening appearance, which corresponds to the style of bandits who want to inspire fear and remain unrecognizable. In some cases, such hats can have additional details, such as stripes, dirt or scuffs, to emphasize their "beaten" state and belonging to the lower strata of stalker society.In terms of visual style, such a hat resembles a balaclava, but with a more "homemade" and gloomy design.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/BanditFullMask/BanditFullMaskIco</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
     <costStuffCount>20</costStuffCount>
@@ -67,6 +68,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
@@ -78,7 +88,8 @@
     <description>A simple knitted balaclava, which is preferred by bandits. It does not provide serious protection, but hides the face, adding to the intimidating look. Often soaked with dust and sweat, which makes it not the most pleasant accessory. However, in the conditions of the Zone, even such a trifle can be useful - at least to protect from wind and sand.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/BanditFull2Mask/BanditFull2MaskIco</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
     <costStuffCount>20</costStuffCount>
@@ -138,6 +149,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
@@ -154,6 +174,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/HalfMask/HalfMaskIco</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>(1)</drawSize>
     </graphicData>
     <stuffCategories>
@@ -203,7 +224,15 @@
       </recipeUsers>
       <displayPriority>165</displayPriority>
     </recipeMaker>
-	 
+	 <modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
   </ThingDef>
   
   <ThingDef ParentName="HatMakeableBase">
@@ -214,7 +243,8 @@
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Half2Mask/Half2MaskIco</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+     <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>(1)</drawSize>
     </graphicData>
     <stuffCategories>
@@ -264,6 +294,14 @@
       </recipeUsers>
       <displayPriority>165</displayPriority>
     </recipeMaker>
-	 
+	 <modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
   </ThingDef>
 </Defs>

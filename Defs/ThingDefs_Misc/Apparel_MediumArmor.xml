@@ -18,9 +18,9 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Corundum/Corundum</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Corundum/CorundumIco</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
     <costList Inherit="False">
@@ -56,7 +56,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Corundum/Corundum</wornGraphicPath>
-	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Shell</li>
       </layers>
@@ -96,6 +95,15 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Mediumarmor</li>
 	  <li>FlakArmor</li>
@@ -125,9 +133,9 @@
 	  <Cloth>90</Cloth>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Convoy/Convoy</texPath>
-       <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Convoy/ConvoyIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -159,7 +167,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Convoy/Convoy</wornGraphicPath>
-	   <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -189,6 +196,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Mediumarmor</li>
 	  <li>FlakArmor</li>
@@ -297,7 +313,7 @@
 					<colorThree>(132,132,192)</colorThree>
 				</defaultPalette>
 			</li>
-		</modExtensions>
+	</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>

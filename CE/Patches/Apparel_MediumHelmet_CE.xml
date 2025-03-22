@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   <!--Exohelmet-->
+   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_ArmorExohelmet"]/apparel/layers</xpath>
+		<value>
+			<li>OnHead</li>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+
+   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorExohelmet"]/statBases</xpath>
+		<value>
+			<Bulk>3.05</Bulk>
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>		
+		</value>
+	</Operation>
+	
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorExohelmet"]/equippedStatOffsets</xpath>
+		<value>
+            <ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+			<NightVisionEfficiency_Apparel>0.75</NightVisionEfficiency_Apparel>		
+		</value>
+	</Operation>
+	 <!--Sphere M20 Helmet-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Sphere"]/apparel/layers</xpath>
+		<value>
+			<li>OnHead</li>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sphere"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sphere"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.65</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	 <!--Mask-1 Helmet-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Mask"]/apparel/layers</xpath>
+		<value>
+			<li>OnHead</li>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Mask"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>	
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Mask"]/equippedStatOffsets</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+</Patch>

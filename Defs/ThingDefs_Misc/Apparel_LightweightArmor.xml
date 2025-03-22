@@ -8,10 +8,10 @@
     <label>Mercenary Suit</label>
     <description>Mercenary-designed suit, based on special forces gear. High molecular polyethylene plates and aramid padding not only sound futuristic, but provide excellent protection from high-corrosion Zone weapons.</description>
     <possessionCount>1</possessionCount>
-  <recipeMaker Inherit="False">
+    <recipeMaker Inherit="False">
      <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
-				<li>TableMachining</li>
+		<li>TableMachining</li>
 	  </recipeUsers>
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -31,9 +31,9 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Merc/Merc</texPath>
-       <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Merc/MercIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -65,7 +65,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Merc/Merc</wornGraphicPath>
-	   <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -95,6 +94,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>
@@ -112,7 +120,7 @@
    <recipeMaker Inherit="False">
      <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
-				<li>TableMachining</li>
+		<li>TableMachining</li>
 	  </recipeUsers>
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -132,9 +140,9 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder</texPath>
-       <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Marauder/MarauderIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -166,7 +174,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder</wornGraphicPath>
-	   <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -196,6 +203,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>
@@ -302,7 +318,7 @@
 					<colorThree>(132,132,192)</colorThree>
 				</defaultPalette>
 			</li>
-		</modExtensions>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>
@@ -338,9 +354,9 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist</texPath>
-       <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Tourist/TouristIco</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -372,7 +388,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist</wornGraphicPath>
-	   <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -402,6 +417,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>
@@ -436,9 +460,9 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise</texPath>
-       <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/SunriseIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -470,7 +494,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise</wornGraphicPath>
-	   <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -500,6 +523,15 @@
         </li>
       </options>
     </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>
@@ -524,9 +556,9 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Beryl/Beryl</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Beryl/BerylIco</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
 	 <costStuffCount>50</costStuffCount>
@@ -566,7 +598,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Beryl/Beryl</wornGraphicPath>
-	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Shell</li>
       </layers>
@@ -606,6 +637,15 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lightweightarmor</li>
 	  <li>FlakArmor</li>

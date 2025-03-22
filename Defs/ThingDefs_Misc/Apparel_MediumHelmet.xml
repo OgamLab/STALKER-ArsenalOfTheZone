@@ -6,9 +6,9 @@
     <label>Exohelmet</label>
     <description>Heavy Exohelmet - When it was part of an exosuit.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Exohelmet/Exohelmet</texPath>
-      <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Exohelmet/ExohelmetIco</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>0.65</drawSize>
     </graphicData>
     <statBases>
@@ -54,7 +54,6 @@
       </bodyPartGroups>
       <scoreOffset>4</scoreOffset>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Exohelmet/Exohelmet</wornGraphicPath>
-	  <useWornGraphicMask>true</useWornGraphicMask>
       <forceEyesVisibleForRotations>
         <li>1</li>
         <li>2</li>
@@ -67,6 +66,32 @@
         <part>Head</part>
       </li>
     </comps>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Mediumhelmet</li>
 	  <li>FlakArmor</li>

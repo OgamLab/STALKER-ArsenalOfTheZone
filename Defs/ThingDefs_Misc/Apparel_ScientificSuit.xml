@@ -19,8 +19,8 @@
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/SEVA/SEVAIco</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+        <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
     <costList Inherit="False">
@@ -65,7 +65,7 @@
 				<li>Feet</li>
 		</bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SEVA/SEVA</wornGraphicPath>
-	  <blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
+	 <!-- <blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>-->
 	  <parentTagDef>ApparelBody</parentTagDef>
 	  <drawData>
         <defaultData>
@@ -122,6 +122,15 @@
 	<comps>
       <li Class="CompProperties_Biocodable"/>
     </comps>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
@@ -151,9 +160,9 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/SSP-100/SSP-100</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/SSP-100/SSP-100Ico</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
     <costList Inherit="False">
@@ -253,6 +262,15 @@
 	<comps>
       <li Class="CompProperties_Biocodable"/>
     </comps>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>

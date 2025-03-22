@@ -8,8 +8,9 @@
     <techLevel>Neolithic</techLevel>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/RESP/RESP</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Humanlike/Apparel/RESP/RESPIco</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>(1)</drawSize>
     </graphicData>
     <costStuffCount>5</costStuffCount>
@@ -63,6 +64,32 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+	 <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
   </ThingDef>
   
   <ThingDef ParentName="HatMakeableBase">
@@ -70,9 +97,9 @@
     <label>PA-7 Gas Mask</label>
     <description>A military adaptation of a civilian gas mask equipped with anti-glare lenses and a flexible filter mount that can be attached on either side, simplifying weapon use for left-handed wearers.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PA-7/PA-7</texPath>
-      <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/PA-7/PA-7Ico</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>0.7</drawSize>
     </graphicData>
     <statBases>
@@ -125,7 +152,33 @@
         <hediff>WearingPsYGasMask</hediff>
         <part>Head</part>
       </li>
-    </comps>
+	 </comps>
+	   <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+		</modExtensions>
 	 <researchPrerequisites>
       <li>Lighthelmet</li>
     </researchPrerequisites>
@@ -136,9 +189,9 @@
     <label>Helmet "Barrier"</label>
     <description>A lightweight helmet with a sealed visor, designed to protect the face from certain abnormal effects. Judging by the technology, it was developed by the same defense research institute as the SEVA suit — presumably for use with army protective suits.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Screen/Screen</texPath>
-      <graphicClass>Graphic_Single</graphicClass> 
-	  <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Apparel/Screen/ScreenIco</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>0.7</drawSize>
     </graphicData>
     <statBases>
@@ -192,6 +245,32 @@
         <part>Head</part>
       </li>
     </comps>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lighthelmet</li>
     </researchPrerequisites>
@@ -202,7 +281,7 @@
     <label>GP-5 Gas Mask</label>
     <description>The GP-5 gas mask is a classic means of personal protection, widely used in the exclusion zone. Despite its outdated design, it remains a reliable tool for survival in conditions of increased radiation, chemical contamination or when encountering anomalous phenomena. Its rubber mask with round glass lenses and a characteristic filter element make it recognizable among stalkers.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/GP-5/GP-5</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/GP-5/GP-5Ico</texPath>
       <graphicClass>Graphic_Single</graphicClass> 
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>0.7</drawSize>
@@ -258,6 +337,32 @@
         <part>Head</part>
       </li>
     </comps>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	 <researchPrerequisites>
       <li>Lighthelmet</li>
     </researchPrerequisites>
@@ -268,8 +373,9 @@
     <label>PG-4 Facehugger Gas Mask</label>
     <description>A vintage civil defense gas mask, expertly modified to endure the harsh conditions of the Zone. The mask gets its nickname from the reinforced inner frame that slightly squeezes the wearer’s face.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Facehugger/Facehugger</texPath>
-             <graphicClass>Graphic_Single</graphicClass>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Facehugger/FacehuggerIco</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+	          <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.7</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -311,7 +417,7 @@
 				<li>Teeth</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Facehugger/Facehugger</wornGraphicPath>
-	        <useWornGraphicMask>true</useWornGraphicMask>
+	       
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -319,9 +425,8 @@
 				 <li>IndustrialMilitaryBasic</li>
 			</tags>
 		</apparel>
-		 
 	<comps>
-      <li Class="CompProperties_CauseHediff_Apparel">
+     <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>WearingPsYGasMask</hediff>
         <part>Head</part>
       </li>
@@ -329,6 +434,32 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 	<researchPrerequisites>
      <li>GasMask</li>
     </researchPrerequisites>
@@ -339,8 +470,9 @@
     <label>PA-10 Gas Mask</label>
     <description>A newer, cost-effective revision of a military gas mask employing denser materials. The filter can no longer be attached on the opposite side, but the housing has been downsized to offset this limitation.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/PA-10/PA-10</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/PA-10/PA-10Ico</texPath>
              <graphicClass>Graphic_Single</graphicClass>
+	         <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.6</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -381,7 +513,6 @@
 			  <li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PA-10/PA-10</wornGraphicPath>
-	        <useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -395,6 +526,32 @@
         <part>Head</part>
       </li>
     </comps>
+	 <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
@@ -408,8 +565,9 @@
     <label>Aeroprotection Gas Mask</label>
     <description>Standard equipment for Ward soldiers, this gas mask provides reliable protection against chemical and radiation hazards. The reinforced visor adds an extra layer of defense against stray shrapnel.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Aeroprotection/Aeroprotection</texPath>
-             <graphicClass>Graphic_Single</graphicClass>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Aeroprotection/AeroprotectionIco</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+	          <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.7</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -451,7 +609,6 @@
 				<li>Teeth</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Aeroprotection/Aeroprotection</wornGraphicPath>
-	        <useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -468,6 +625,32 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <researchPrerequisites>
       <li>GasMask</li>
     </researchPrerequisites>
@@ -480,8 +663,9 @@
     <label>Optician Gas Mask</label>
     <description>A civilian-grade gas mask featuring a solid visor and the option to mount a pair of filters. Fairly popular in the Zone.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Optic/Optic</texPath>
-             <graphicClass>Graphic_Single</graphicClass>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Optic/OpticIco</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+	          <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.7</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -540,6 +724,32 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <researchPrerequisites>
       <li>GasMask</li>
     </researchPrerequisites>
@@ -606,8 +816,9 @@
     <label>Ballistic Helmet</label>
     <description>This headgear provides basic protection against pistol bullets. It does not incorporate a gas mask.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical</texPath>
-             <graphicClass>Graphic_Single</graphicClass>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical(gas)Ico</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+	         <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>1</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -649,7 +860,6 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical</wornGraphicPath>
-	        <useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -660,6 +870,32 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+	 <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <researchPrerequisites>
       <li>Lighthelmet</li>
     </researchPrerequisites>
@@ -670,8 +906,9 @@
     <label>Tactical Helmet</label>
     <description>This effective combination of a ballistic helmet and a military gas mask has been widely adopted by military units operating in the Zone.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical(gas)</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical(gas)Ico</texPath>
              <graphicClass>Graphic_Single</graphicClass>
+	         <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>1</drawSize>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -713,7 +950,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tactical/Tactical(gas)</wornGraphicPath>
-	        <useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -724,6 +960,32 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+		 <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+	</modExtensions>
     <researchPrerequisites>
       <li>Lighthelmet</li>
     </researchPrerequisites>

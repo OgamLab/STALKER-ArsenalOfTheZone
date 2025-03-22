@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   <!--Mercenary Suit-->
+   	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMerc"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMerc"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>30</CarryWeight>
+			<CarryBulk>40</CarryBulk>
+			<ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	 <!--Marauder Suit-->
+	 <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMarauder"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMarauder"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>40</CarryWeight>
+			<CarryBulk>50</CarryBulk>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	 <!--PSZ-5-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ5A"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ5A"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>35</CarryWeight>
+			<CarryBulk>42</CarryBulk>
+			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	 <!--Tourist Suit-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Tourist"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Tourist"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>50</CarryWeight>
+			<CarryBulk>60</CarryBulk>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	<!--Sunrise Suit-->
+	 <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sunrise"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sunrise"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>50</CarryWeight>
+			<CarryBulk>60</CarryBulk>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+	
+	<!--Berill-5M Armored Suit-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Beryl"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Beryl"]/equippedStatOffsets</xpath>
+		<value>
+             <CarryWeight>55</CarryWeight>
+			<CarryBulk>65</CarryBulk>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>		
+		</value>
+	</Operation>
+	
+	<!--PSZ-9-->
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ-9I"]/statBases</xpath>
+		<value>
+			<Bulk>9.0</Bulk>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ-9I"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>40</CarryWeight>
+			<CarryBulk>50</CarryBulk>
+			<ToxicEnvironmentResistance>0.40</ToxicEnvironmentResistance>			
+		</value>
+	</Operation>
+
+</Patch>
