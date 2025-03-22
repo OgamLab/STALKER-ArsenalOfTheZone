@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
+<!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_GasMaskMerc"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
@@ -13,7 +13,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_GasMaskMerc"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -25,11 +25,11 @@
 		</value>
 	</Operation>
 	
-		<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_RESP"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -49,7 +49,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Screen"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -74,7 +74,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_GPMask"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -100,7 +100,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Facehugger"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -127,7 +127,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -143,7 +143,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -161,7 +161,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Bulat"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -189,7 +189,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorExohelmet"]/statBases</xpath>
 		<value>
 			<Bulk>3.05</Bulk>
-			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -207,7 +207,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMerc"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -229,7 +229,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_ArmorMarauder"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -257,7 +257,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PA10A"]/statBases</xpath>
 		<value>
 			<Bulk>2.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -275,7 +275,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ5A"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.0</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -293,7 +293,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Aeroprotection"]/apparel/layers</xpath>
 		<value>
-			<!--<li>OnHead</li>-->
+			<!{1}**<li>OnHead</li>**{1}>
 			<li>StrappedHead</li>
 		</value>
 	</Operation>
@@ -311,7 +311,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Aeroprotection"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -328,7 +328,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>60.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -347,7 +347,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Tourist"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -366,7 +366,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sunrise"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -385,7 +385,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Beryl"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -410,7 +410,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_SEVA"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -424,7 +424,7 @@
 	</Operation>
 	
 	
-	<Operation Class="PatchOperationAdd">
+	<!{1}**<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_SEVA"]</xpath>
 		<value>
 			<modExtensions Inherit="False">
@@ -437,7 +437,7 @@
 			</li>
 			</modExtensions>
 		</value>
-	</Operation>
+	</Operation>**{1}>
 	
 	
 	<Operation Class="PatchOperationAdd">
@@ -451,7 +451,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_SSP-100A"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>60.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -465,7 +465,7 @@
 	</Operation>
 	
 	
-	<Operation Class="PatchOperationAdd">
+	<!{1}**<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_SSP-100A"]</xpath>
 		<value>
 			<modExtensions Inherit="False">
@@ -478,7 +478,7 @@
 			</li>
 			</modExtensions>
 		</value>
-	</Operation>
+	</Operation>**{1}>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Glasses"]/apparel/layers</xpath>
@@ -509,7 +509,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_TacticalHelmet"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -528,7 +528,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_TacticalHelmetGas"]/statBases</xpath>
 		<value>
 			<Bulk>3.0</Bulk>
-			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!--Hold - Bullet 9x19mm Para FMJ-->
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp><!{1}**Hold - Bullet 9x19mm Para FMJ**{1}>
 			<ArmorRating_Blunt>10</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -544,7 +544,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PSZ-9I"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>			
 		</value>
 	</Operation>
@@ -572,7 +572,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Sphere"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -597,7 +597,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Mask"]/statBases</xpath>
 		<value>
 			<Bulk>9.0</Bulk>
-			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!--Hold - Bullet_556x45mmNATO_FMJ-->
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp><!{1}**Hold - Bullet_556x45mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>35.0</ArmorRating_Blunt>	
 		</value>
 	</Operation>
@@ -613,7 +613,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Altyn"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>60.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -623,7 +623,7 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_HAS"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>60.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
@@ -641,11 +641,11 @@
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Mask-1Sh"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.6</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
+			<ArmorRating_Sharp>7.6</ArmorRating_Sharp><!{1}**Hold - Bullet_762x51mmNATO_FMJ**{1}>
 			<ArmorRating_Blunt>63.0</ArmorRating_Blunt>		
 		</value>
 	</Operation>
-	
+	-->
 	
 	
 	<Operation Class="PatchOperationReplace">
