@@ -16,10 +16,11 @@
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>7</Crafting>
+         <Crafting>4</Crafting>
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
+	 <techLevel>Industrial</techLevel>
 	 <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -36,19 +37,26 @@
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
+      <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
-      <Mass>7</Mass>
-      <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <Mass>5</Mass>
+	  <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
-      <MoveSpeed>-0.8</MoveSpeed>
+	  <MoveSpeed>-0.12</MoveSpeed>
+      <RangedCooldownFactor>-0.2</RangedCooldownFactor>
+	  <!-- <SocialImpact>0.10</SocialImpact>
+       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+	   <PsychicSensitivity>-0.03</PsychicSensitivity>-->
+	   <SuppressionPower>0.1</SuppressionPower>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -125,7 +133,7 @@
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
@@ -135,7 +143,7 @@
       <li>Leathery</li>
     </stuffCategories>
 	 <costList Inherit="False">
-      <Steel>70</Steel>
+      <Steel>75</Steel>
 	  <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -145,19 +153,21 @@
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+     <WorkToMake>9500</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>8</Mass>
+       <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.29</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>7</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
-      <MoveSpeed>-0.3</MoveSpeed>
+      <MoveSpeed>-0.10</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -242,8 +252,8 @@
       <li>Leathery</li>
     </stuffCategories>
 	 <costList Inherit="False">
-      <Steel>70</Steel>
-	  <Chemfuel>8</Chemfuel>
+      <Steel>80</Steel>
+	  <Chemfuel>7</Chemfuel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
@@ -252,19 +262,21 @@
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>0.53</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <WorkToMake>9300</WorkToMake>
+      <MaxHitPoints>268</MaxHitPoints>
+      <Mass>11</Mass>
+       <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.29</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>7</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
-      <MoveSpeed>-0.3</MoveSpeed>
+      <MoveSpeed>-0.11</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -339,7 +351,7 @@
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
@@ -349,7 +361,7 @@
       <li>Leathery</li>
     </stuffCategories>
 	 <costList Inherit="False">
-      <Steel>70</Steel>
+      <Steel>75</Steel>
 	   <Chemfuel>11</Chemfuel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -359,19 +371,22 @@
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>5</Mass>
-      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+       <WorkToMake>9200</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>7</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.3</MoveSpeed>
+	  <SuppressionPower>0.1</SuppressionPower>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -445,7 +460,7 @@
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
@@ -465,19 +480,22 @@
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>5</Mass>
-      <StuffEffectMultiplierArmor>0.53</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <WorkToMake>9400</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>6</Mass>
+	  <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.32</ArmorRating_Heat>
+      <Insulation_Cold>1.1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
-      <MoveSpeed>-0.3</MoveSpeed>
+       <RangedCooldownFactor>-0.2</RangedCooldownFactor>
+	   <PsychicSensitivity>-0.03</PsychicSensitivity>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -561,30 +579,32 @@
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
-	 <costStuffCount>50</costStuffCount>
+	 <costStuffCount>55</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <costList Inherit="False">
 	 <Chemfuel>8</Chemfuel>
-      <Steel>70</Steel>
+      <Steel>85</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
-      <li>ApparelMisc</li>
+        <li>ApparelArmor</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
+           <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
-      <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <Mass>5</Mass>
+	  <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.17</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-	  <MoveSpeed>-0.2</MoveSpeed>
+	  <MoveSpeed>-0.20</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
 	   <tags>
@@ -635,7 +655,7 @@
       </options>
     </colorGenerator>
     <tradeTags>
-      <li>BasicClothing</li>
+     <li>Armor</li>
     </tradeTags>
 	<modExtensions>
 			<li Class="RWPaintingTool.PaintableExtension">
@@ -662,12 +682,12 @@
      <recipeMaker Inherit="False">
      <researchPrerequisite>Lightweightarmor</researchPrerequisite>
       <recipeUsers Inherit="False">
-				<li>TableMachining</li>
+		<li>TableMachining</li>
 	  </recipeUsers>
       <workSkill>Crafting</workSkill>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
       <displayPriority>520</displayPriority>
     </recipeMaker>
@@ -677,30 +697,33 @@
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
-	 <costStuffCount>50</costStuffCount>
+	 <costStuffCount>55</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <costList Inherit="False">
-	 <Chemfuel>11</Chemfuel>
-      <Steel>70</Steel>
+	 <Chemfuel>15</Chemfuel>
+      <Steel>75</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <WorkToMake>9900</WorkToMake>
+      <MaxHitPoints>305</MaxHitPoints>
+      <Mass>9</Mass>
+	  <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.32</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-	  <MoveSpeed>-0.2</MoveSpeed>
+	    <MoveSpeed>-0.12</MoveSpeed>
+		 <SuppressionPower>0.1</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
 	   <tags>
@@ -751,7 +774,7 @@
       </options>
     </colorGenerator>
     <tradeTags>
-      <li>BasicClothing</li>
+     <li>Armor</li>
     </tradeTags>
 	<modExtensions>
 			<li Class="RWPaintingTool.PaintableExtension">

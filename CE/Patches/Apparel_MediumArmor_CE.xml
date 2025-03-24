@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
    <!--Corundum Suit-->
-    <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases</xpath>
+   
+   <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
-			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>		
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>
 		</value>
 	</Operation>
 	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/statBases</xpath>
+		<value>
+			<Bulk>12</Bulk>
+			<WornBulk>7</WornBulk>
+		</value>
+	</Operation>
+	
+   
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Corundum"]/equippedStatOffsets</xpath>
 		<value>
             <CarryWeight>80</CarryWeight>
 			<CarryBulk>90</CarryBulk>
-			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>			
+			<ToxicEnvironmentResistance>0.30</ToxicEnvironmentResistance>			
 		</value>
 	</Operation>
 	
     <!--PSZ-20 Convoy-->
-	 <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/statBases</xpath>
+	 <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>7.3</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
-			<ArmorRating_Blunt>60.0</ArmorRating_Blunt>		
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/statBases</xpath>
+		<value>
+			<Bulk>12</Bulk>
+			<WornBulk>7</WornBulk>
+		</value>
+	</Operation>
+	
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Convoy"]/equippedStatOffsets</xpath>
@@ -39,14 +68,29 @@
 	</Operation>
 	
 	 <!--PSZ-12 Bulat-->
-	  <Operation Class="PatchOperationAdd">
+	 
+	 <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Bulat"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8.0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Bulat"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Bulat"]/statBases</xpath>
 		<value>
 			<Bulk>15.05</Bulk>
-			<ArmorRating_Sharp>8.0</ArmorRating_Sharp><!--Hold - Bullet_762x51mmNATO_FMJ-->
-			<ArmorRating_Blunt>65.0</ArmorRating_Blunt>		
+			<WornBulk>10</WornBulk>
 		</value>
 	</Operation>
+	
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Bulat"]/equippedStatOffsets</xpath>
