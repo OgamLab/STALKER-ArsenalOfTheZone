@@ -70,8 +70,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Rhino"]/equippedStatOffsets</xpath>
 		<value>
-            <CarryWeight>80</CarryWeight>
-			<CarryBulk>65</CarryBulk>		
+            <CarryWeight>280</CarryWeight>
+			<CarryBulk>265</CarryBulk>		
 		</value>
 	</Operation>
 	

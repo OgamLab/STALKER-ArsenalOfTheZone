@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Stalker_Apparel_RESP.label>Респиратор</Stalker_Apparel_RESP.label>
-<Stalker_Apparel_RESP.description>Стандартный респиратор, используемый сталкерами для защиты органов дыхания. Оснащен фильтрами, задерживающими токсичные вещества, пыль и радионуклиды. Несмотря на простоту конструкции, обеспечивает базовую защиту в Зоне. Однако в условиях сильной радиационной или химической угрозы рекомендуется использовать более специализированные средства защиты.</Stalker_Apparel_RESP.description>
+  <Stalker_Apparel_RESP.label>Респиратор</Stalker_Apparel_RESP.label>
+  <Stalker_Apparel_RESP.description>Стандартный респиратор, используемый сталкерами для защиты органов дыхания. Оснащен фильтрами, задерживающими токсичные вещества, пыль и радионуклиды. Несмотря на простоту конструкции, обеспечивает базовую защиту в Зоне. Однако в условиях сильной радиационной или химической угрозы рекомендуется использовать более специализированные средства защиты.</Stalker_Apparel_RESP.description>
 
   <Stalker_Apparel_GasMaskMerc.label>Противогаз PA-7</Stalker_Apparel_GasMaskMerc.label>
   <Stalker_Apparel_GasMaskMerc.description>Военная адаптация гражданского противогаза, оснащенная антибликовыми линзами и гибким креплением фильтра, которое можно прикрепить с любой стороны, что упрощает использование оружия для левшей.</Stalker_Apparel_GasMaskMerc.description>
 
   <Stalker_Apparel_Screen.label>Шлем «Заслон»</Stalker_Apparel_Screen.label>
-<Stalker_Apparel_Screen.description>Легкий шлем с герметичным забралом, предназначенный для защиты лица от некоторых аномальных воздействий. Судя по технологии, разработан тем же оборонным НИИ, что и костюм SEVA — предположительно для использования с армейскими защитными костюмами.</Stalker_Apparel_Screen.description>
+  <Stalker_Apparel_Screen.description>Легкий шлем с герметичным забралом, предназначенный для защиты лица от некоторых аномальных воздействий. Судя по технологии, разработан тем же оборонным НИИ, что и костюм SEVA — предположительно для использования с армейскими защитными костюмами.</Stalker_Apparel_Screen.description>
 
   <Stalker_Apparel_GPMask.label>Противогаз ГП-5</Stalker_Apparel_GPMask.label>
   <Stalker_Apparel_GPMask.description>Противогаз ГП-5 — классическое средство индивидуальной защиты, широко применяемое в зоне отчуждения. Несмотря на устаревшую конструкцию, он остается надежным средством выживания в условиях повышенной радиации, химического заражения или при столкновении с аномальными явлениями. Резиновая маска с круглыми стеклянными линзами и характерный фильтрующий элемент делают его узнаваемым среди сталкеров.</Stalker_Apparel_GPMask.description>
@@ -22,8 +22,8 @@
   <Stalker_Apparel_Aeroprotection.label>Противогаз «Аэрозащита»</Stalker_Apparel_Aeroprotection.label>
   <Stalker_Apparel_Aeroprotection.description>Стандартное снаряжение для солдат Уорда, этот противогаз обеспечивает надежную защиту от химических и радиационных опасностей. Усиленный козырек добавляет дополнительный уровень защиты от шальных осколков.</Stalker_Apparel_Aeroprotection.description>
 
-  <Stalker_Apparel_Optic.label>Optician Gas Mask</Stalker_Apparel_Optic.label>
-  <Stalker_Apparel_Optic.description>A civilian-grade gas mask featuring a solid visor and the option to mount a pair of filters. Fairly popular in the Zone.</Stalker_Apparel_Optic.description>
+  <Stalker_Apparel_Optic.label>Противогаз «Оптик»</Stalker_Apparel_Optic.label>
+  <Stalker_Apparel_Optic.description>Гражданский противогаз маска с прочным забралом и возможностью установки пары фильтров.Очень популярна в Зоне.</Stalker_Apparel_Optic.description>
 
   <Stalker_Apparel_Glasses.label>Баллистичские очки</Stalker_Apparel_Glasses.label>
   <Stalker_Apparel_Glasses.description>Баллистические военные очки — это специальные очки, которые защищают глаза от крупных частиц, пыли и сильного потока воздуха.</Stalker_Apparel_Glasses.description>
