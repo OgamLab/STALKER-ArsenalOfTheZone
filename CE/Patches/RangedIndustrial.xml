@@ -24,7 +24,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>12</range>
 			<soundCast>Shot_PTM</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -61,7 +61,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>13</range>
 			<soundCast>Shot_Vintar</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -132,7 +132,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x39mmSoviet_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>12</range>
 			<soundCast>Shot_PTM</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -192,7 +192,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>12</range>
 			<soundCast>Shot_PTM</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -260,7 +260,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>14</range>
 			<soundCast>Shot_PTM</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -330,7 +330,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>32</range>
+			<range>15</range>
 			<soundCast>Shot_MP5B</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -407,7 +407,7 @@
 			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.55</warmupTime>
-			<range>30</range>
+			<range>15</range>
 			<soundCast>Shot_M10Gordon</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -576,7 +576,7 @@
 			<burstShotCount>2</burstShotCount>
 			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 			<warmupTime>0.6</warmupTime>
-			<range>12</range>
+			<range>16</range>
 			<soundCast>Shot_TOZ34</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -650,7 +650,7 @@
 			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 			<warmupTime>0.6</warmupTime>
-			<range>12</range>
+			<range>16</range>
 			<soundCast>Shot_M860</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -721,7 +721,7 @@
 			<burstShotCount>2</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<warmupTime>1.6</warmupTime>
-			<range>12</range>
+			<range>16</range>
 			<soundCast>Shot_TOZ34</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -794,7 +794,7 @@
 			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<warmupTime>1.6</warmupTime>
-			<range>12</range>
+			<range>16</range>
 			<soundCast>Shot_TOZ34</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1010,7 +1010,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x39mmSoviet_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>28</range>
+			<range>14</range>
 			<soundCast>Shot_Colt</soundCast>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</Properties>
@@ -1081,7 +1081,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>32</range>
+			<range>16</range>
 			<soundCast>Shot_MP5B</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1154,7 +1154,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>32</range>
+			<range>15</range>
 			<soundCast>Shot_MP5B</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>

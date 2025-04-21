@@ -25,7 +25,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>32</range>
+			<range>50</range>
 			<soundCast>Shot_Groza</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -148,7 +148,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>35</range>
+			<range>55</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -221,7 +221,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>8</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>38</range>
+			<range>45</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -294,7 +294,7 @@
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>28</range>
+			<range>45</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -366,7 +366,7 @@
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>32</range>
+			<range>48</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -439,7 +439,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>38</range>
+			<range>50</range>
 			<soundCast>Shot_Groza</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -552,7 +552,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>38</range>
+			<range>52</range>
 			<soundCast>Shot_Groza</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -629,7 +629,7 @@
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>32</range>
+			<range>50</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -702,7 +702,7 @@
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 			<burstShotCount>10</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>42</range>
+			<range>55</range>
 			<soundCast>Shot_IL86</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -850,7 +850,7 @@
 			<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>70</range>
+			<range>80</range>
 			<soundCast>Shot_SVU</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -924,7 +924,7 @@
 			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>80</range>
+			<range>85</range>
 			<soundCast>Shot_SVD</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1148,7 +1148,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>42</range>
+			<range>52</range>
 			<soundCast>Shot_GP37</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1221,7 +1221,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>39</range>
+			<range>50</range>
 			<soundCast>Shot_Trc301</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1295,7 +1295,7 @@
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>40</range>
+			<range>52</range>
 			<soundCast>Shot_SGI</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1472,7 +1472,7 @@
 			<burstShotCount>1</burstShotCount>
 			<warmupTime>0.80</warmupTime>
 			<range>40</range>
-			<soundCast>Shot_SGI</soundCast>
+			 <soundCast>Shot_IncendiaryLauncher</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</Properties>
@@ -1721,8 +1721,8 @@
 			<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 			<warmupTime>0.70</warmupTime>
 			<range>20</range>
-			<soundCast>Shot_SVD</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
+			 <soundCast>Shot_IncendiaryLauncher</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</Properties>
 
@@ -1797,7 +1797,7 @@
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>5</burstShotCount>
 			<warmupTime>0.70</warmupTime>
-			<range>42</range>
+			<range>52</range>
 			<soundCast>Shot_GP37</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -1870,7 +1870,7 @@
 			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 			<burstShotCount>3</burstShotCount>
 			<warmupTime>0.75</warmupTime>
-			<range>35</range>
+			<range>55</range>
 			<soundCast>Shot_AK</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
