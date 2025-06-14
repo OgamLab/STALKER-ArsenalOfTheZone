@@ -155,14 +155,14 @@
 		</value>
 	</Operation>
 	<!--Optician Gas Mask-->
-	<Operation Class="PatchOperationReplace">
+	<!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/apparel/layers</xpath>
 		<value>
 			<layers>
 				<li>StrappedHead</li>
 			</layers>
 		</value>
-	</Operation>
+	</Operation>-->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Optic"]/statBases</xpath>
@@ -179,6 +179,7 @@
 			<ToxicEnvironmentResistance>0.40</ToxicEnvironmentResistance>			
 		</value>
 	</Operation>
+	
     <!--Ballistic Glasses-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Glasses"]/apparel/layers</xpath>

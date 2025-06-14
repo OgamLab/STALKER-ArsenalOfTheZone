@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
  
- <ThingDef ParentName="ApparelMakeableBase">
+ <ThingDef ParentName="ApparelMakeableBase"><!-- REady-->
     <defName>Stalker_Apparel_HAS</defName>
     <label>Heavy armor suit</label>
     <description>A heavy armor suit, which is essentially an exoskeleton underarmor. Its protective parameters are similar to those of a full-fledged exoskeleton, but the lack of servos and batteries does not provide increased strength. On the other hand, it is cheaper to maintain.</description>

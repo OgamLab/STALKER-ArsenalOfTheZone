@@ -658,13 +658,13 @@
 	
 	
 	
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="HatMakeableBase"><!-- REady-->
 	<defName>Stalker_Apparel_Optic</defName>
     <label>Optician Gas Mask</label>
     <description>A civilian-grade gas mask featuring a solid visor and the option to mount a pair of filters. Fairly popular in the Zone.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Optic/OpticIco</texPath>
-              <graphicClass>Graphic_Single</graphicClass>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Optic/OpticanIco</texPath>
+              <graphicClass>Graphic_Multi</graphicClass>
 	          <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.7</drawSize>
 		</graphicData>
@@ -706,7 +706,7 @@
 				<li>Eyes</li>
 				<li>Teeth</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Optic/Optic</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Optic/Optican</wornGraphicPath>
 	        <useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

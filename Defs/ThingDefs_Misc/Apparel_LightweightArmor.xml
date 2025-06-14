@@ -338,7 +338,7 @@
   </ThingDef>
 
   
-  <ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ArmorSmithableBase"><!-- REady-->
     <defName>Stalker_Apparel_Tourist</defName>
     <label>Tourist Suit</label>
     <description>The former owner of this suit had an excellent understanding of weight distribution and echeloning of equipment. Redesigned pockets, a corset that relieves the back, additional pouches and a travel backpack allow you to carry more weight, which is very handy during long raids into the Zone.</description>
