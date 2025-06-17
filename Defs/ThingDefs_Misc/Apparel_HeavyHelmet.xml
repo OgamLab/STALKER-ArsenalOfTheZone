@@ -103,7 +103,7 @@
     <label>Mask-1sh Helmet</label>
     <description>-/Придумать описание/-</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1shIco</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1sh_item</texPath>
 			 <graphicClass>Graphic_Single</graphicClass>
 		     <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.65</drawSize>
@@ -144,7 +144,7 @@
 			<bodyPartGroups>
 				 <li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1sh</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1SH</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
