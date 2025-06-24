@@ -5,7 +5,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_ArmorExohelmet"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+		<!--	<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 
@@ -30,7 +30,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Sphere"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+		<!--	<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	
@@ -54,7 +54,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Mask"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+		<!--	<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	

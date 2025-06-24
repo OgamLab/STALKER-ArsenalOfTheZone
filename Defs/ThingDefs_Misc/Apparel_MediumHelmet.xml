@@ -2,11 +2,11 @@
 <Defs>
  
   <ThingDef ParentName="HatMakeableBase">
-    <defName>Stalker_Apparel_ArmorExohelmet</defName>
+    <defName>Stalker_Apparel_ArmorExohelmet</defName><!--Переделать маску для шлема-->
     <label>Exohelmet</label>
     <description>Heavy Exohelmet - When it was part of an exosuit.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Exohelmet/ExohelmetIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Exohelmet/Exohelmet_item</texPath>
        <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>0.65</drawSize>
@@ -103,10 +103,10 @@
     <label>Sphere M20 Helmet</label>
     <description>A modern titanium helmet with aramid reinforcement, complemented by a high-quality gas mask equipped with photochromic lenses.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Sphere/SphereIco</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Sphere/Sphere_item</texPath>
 			 <graphicClass>Graphic_Single</graphicClass>
 		     <shaderType>CutoutMultiMask</shaderType>
-			 <drawSize>0.65</drawSize>
+			 <drawSize>0.7</drawSize>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		 <equippedStatOffsets>
@@ -189,14 +189,14 @@
 	</ThingDef>
 	
  <ThingDef ParentName="ArmorHelmetMakeableBase">
-	<defName>Stalker_Apparel_Mask</defName>
+	<defName>Stalker_Apparel_Mask</defName><!--править маску -->
     <label>Mask-1 Helmet</label>
     <description>A heavy-duty assault helmet equipped with ballistic goggles and an aramid-reinforced respirator.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Mask-1/Mask-1Ico</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Mask-1/Mask-1_item</texPath>
 			 <graphicClass>Graphic_Single</graphicClass>
 		     <shaderType>CutoutMultiMask</shaderType>
-			 <drawSize>0.65</drawSize>
+			 <drawSize>0.7</drawSize>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		 <equippedStatOffsets>

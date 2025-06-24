@@ -5,7 +5,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_GasMaskMerc"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+			<!--<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	
@@ -38,7 +38,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Screen"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+		<!--	<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	
@@ -62,7 +62,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_GPMask"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+			<!--<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	
@@ -82,14 +82,14 @@
 		</value>
 	</Operation>
 	<!--PG-4 Facehugger Gas Mask-->
-	<Operation Class="PatchOperationReplace">
+	<!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Facehugger"]/apparel/layers</xpath>
 		<value>
 			<layers>
 				<li>StrappedHead</li>
 			</layers>
 		</value>
-	</Operation>
+	</Operation>-->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Facehugger"]/statBases</xpath>
@@ -111,7 +111,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_PA10A"]/apparel/layers</xpath>
 		<value>
 			<li>OnHead</li>
-			<li>StrappedHead</li>
+		<!--	<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 		
@@ -134,8 +134,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Aeroprotection"]/apparel/layers</xpath>
 		<value>
-			<!--<li>OnHead</li>-->
-			<li>StrappedHead</li>
+			<li>OnHead</li>
+			<!--<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 	
@@ -181,12 +181,12 @@
 	</Operation>
 	
     <!--Ballistic Glasses-->
-	<Operation Class="PatchOperationAdd">
+	<!--<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Glasses"]/apparel/layers</xpath>
 		<value>
 			<li>StrappedHead</li>
 		</value>
-	</Operation>
+	</Operation>-->
 	<!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Glasses"]/apparel/layers</xpath>
 		<value>
@@ -218,7 +218,7 @@
 		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_TacticalHelmetGas"]/apparel/layers</xpath>
 		<value>
 		    <li>Overhead</li>
-			<li>StrappedHead</li>
+			<!--<li>StrappedHead</li>-->
 		</value>
 	</Operation>
 		

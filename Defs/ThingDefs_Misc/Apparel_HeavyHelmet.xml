@@ -2,11 +2,11 @@
 <Defs>
  
  <ThingDef ParentName="ArmorHelmetMakeableBase">
-	<defName>Stalker_Apparel_Altyn</defName>
+	<defName>Stalker_Apparel_Altyn</defName><!--заменить маски -->
     <label>Altyn Helmet</label>
     <description>Altyn is a titanium helmet developed in the Soviet Union and adopted by the KGB. Providing great protection to the wearer and equipped with an armored visor, it became popular with Russian Internal affairs and security services Spetsnaz units.</description>
 		<graphicData>
-			 <texPath>Things/Pawn/Humanlike/Apparel/Altyn/AltynIco</texPath>
+			 <texPath>Things/Pawn/Humanlike/Apparel/Altyn/Altyn_item</texPath>
 			 <graphicClass>Graphic_Single</graphicClass>
 		     <shaderType>CutoutMultiMask</shaderType>
 			 <drawSize>0.65</drawSize>
@@ -144,7 +144,7 @@
 			<bodyPartGroups>
 				 <li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1SH</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mask-1SH/Mask-1sh</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
