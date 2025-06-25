@@ -4,7 +4,7 @@
 
 
 <ThingDef ParentName="ArmorSmithableBase">
-    <defName>Stalker_Apparel_ArmorMerc</defName>
+    <defName>Stalker_Apparel_ArmorMerc</defName><!-- проблемма с маской-->
     <label>Mercenary Suit</label>
     <description>Mercenary-designed suit, based on special forces gear. High molecular polyethylene plates and aramid padding not only sound futuristic, but provide excellent protection from high-corrosion Zone weapons.</description>
     <possessionCount>1</possessionCount>
@@ -32,7 +32,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Merc/MercIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Merc/Merc_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
@@ -148,7 +148,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Marauder/MarauderIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
@@ -257,7 +257,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-5/PSZIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-5/PSZ-5_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
@@ -366,7 +366,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Tourist/TouristIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist_item</texPath>
        <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
@@ -475,7 +475,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/SunriseIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
     </graphicData>
@@ -574,7 +574,7 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Beryl/BerylIco</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Beryl/Beryl_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
@@ -692,7 +692,7 @@
       <displayPriority>520</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-9/PSZ9Ico</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-9/PSZ-9_item</texPath>
      <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutMultiMask</shaderType>
       <drawSize>1.0</drawSize>
