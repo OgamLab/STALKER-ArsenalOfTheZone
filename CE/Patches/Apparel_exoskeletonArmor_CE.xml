@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   
+	
+	 <!--Rhino Suit-->
+ <!--  	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Rhino"]/apparel/layers</xpath>
+		<value>
+			<li>Backpack</li>
+		</value>
+	</Operation>-->
+	  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Rhino"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>36.3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Rhino"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>634</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Rhino"]/statBases</xpath>
+		<value>
+			<Bulk>18</Bulk>
+			<WornBulk>14</WornBulk>
+		</value>
+	</Operation>
+	
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Rhino"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>280</CarryWeight>
+			<CarryBulk>265</CarryBulk>		
+		</value>
+	</Operation>
+	
+
+	 <!--Prototype Exoskeleton-->
+ <!--  	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Rhino"]/apparel/layers</xpath>
+		<value>
+			<li>Backpack</li>
+		</value>
+	</Operation>-->
+	  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PrototypeExoskeleton"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>16.3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PrototypeExoskeleton"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>334</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PrototypeExoskeleton"]/statBases</xpath>
+		<value>
+			<Bulk>18</Bulk>
+			<WornBulk>14</WornBulk>
+		</value>
+	</Operation>
+	
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_PrototypeExoskeleton"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>180</CarryWeight>
+			<CarryBulk>165</CarryBulk>		
+		</value>
+	</Operation>
+	
+		 <!--Exoskeleton-->
+ <!--  	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stalker_Apparel_Rhino"]/apparel/layers</xpath>
+		<value>
+			<li>Backpack</li>
+		</value>
+	</Operation>-->
+	  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Exoskeleton"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>25.3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Exoskeleton"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>454</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Exoskeleton"]/statBases</xpath>
+		<value>
+			<Bulk>18</Bulk>
+			<WornBulk>14</WornBulk>
+		</value>
+	</Operation>
+	
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Stalker_Apparel_Exoskeleton"]/equippedStatOffsets</xpath>
+		<value>
+            <CarryWeight>220</CarryWeight>
+			<CarryBulk>200</CarryBulk>		
+		</value>
+	</Operation>
+</Patch>
